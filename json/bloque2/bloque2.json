@@ -1,0 +1,15 @@
+{
+    "titulo":"Estadistica Descriptiva",
+    "subtitulo":"Describe caracteristicas basicas del set de Datos",
+    "moreInfo":"Obtenemos un pequeño resumen y caracteristicas del set",
+    "bloque":[
+        ["Con Python es muy sensillo utilizando pandas.",
+        "Que obtenemos con <cb>df.describe()</cb>"
+        ],{"titulo":"","texts":["count:cantidad","std:desviación estándar",
+        "min: minimo","max: maximo","Q1: Primer Quartil","mean o Q2: mediana o  Segundo Quartil",
+        "Q3: Tercer Quartil","RIC: la media","valores atipicos"]},
+        ["<cb>sns.boxplot(x=X,y=Y,data=df)</cb>","<img src='img/bloque2/boxplot.png' alt=''>"]
+
+],
+    "orden":["texts","listD","texts"]
+}

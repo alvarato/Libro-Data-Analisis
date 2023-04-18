@@ -1,0 +1,14 @@
+{
+    "titulo":"Correlacion",
+    "subtitulo":"Mide hasta que punto una variable afecta a otra",
+    "moreInfo":"",
+    "bloque":[
+        ["Se dice que las variables X e Y (cada una con datos registrados) están correlacionadas psitivamente si los valores altos de X acompañan a los valores altos de Y, y los valores bajos de X acompañan a los valores bajos de Y. Si esta relación es inversa las variables están correlacionadas negativamente.",
+        "<cr>Términos Clave de la correlación</cr>",
+        "Coeficiente de correlación:<br>Métrica que mide el grado en las que las variables numericas están asociadas entre si range(-1,1)<br>Cuanto mas tienda a 0 menor es la correlación",
+        "Matriz de correlación:<br>Tabla en las que las variables se muestran tanto en filas como en columnas, y los valores de las celdas son las correlaciones entre las variables.",
+        "Diagrama de dispersión:<br>Diagrama en el que el eje X es el valor de la una variable y el eje Y es el valor de otra."
+        ]
+],
+    "orden":["texts"]
+}
