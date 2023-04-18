@@ -1,0 +1,27 @@
+{
+    "titulo": "Data Visualization",
+    "subtitulo":"Proceso del Data Analysis",
+    "moreInfo":"",
+    "bloque":{
+        "imgText":[
+            {"img":"img/foto3.png","text":"Entender el Problema"},
+            {"img":"img/foto5.png","text":"Comunicar Resultados"}
+        ],
+        "listasD":
+        [{
+                "titulo":"Realizar una buena comunicacion consta de 3 factores",
+                "lista":["Data","Visualizacion","Una buena historia"]
+            },{
+                "titulo":"Para realizar una buena historia tenemos que realizar las siguientes Preguntas.",
+                "lista":["<g class='colorBlue'>Quien es mi audiencia</g><br>El publico en terminos generales va a ser diverso en funcion de los roles operativos o estrategicos en la organizacion y si les afecta el problema y otros factores similares."
+                    ,"<g class='colorBlue'>Que es importante para ellos?</g><br>La presentacion debe adaptarse a la necesidad y capacidad de la audiencia, decidiras que informacion es esencial y en que medida para permitir una mejor compresion de tus conclusiones y descubrimientos.<br>Es tentador mostrar todos los descubrimientos pero hay que enteder que es mejor para el public y el objetivo."
+                    ,"<g class='colorBlue'>Que les ayudara a entenderme?</g><br>Empieza tu presentacion demostrando a la audiencia que entiendes el problema, es facil caer en la suposicion de que todos sabemos para que estamos aqui, pero demotrar que entendemos cual es el problema y cual es el objetivo es un gran comienzo de la presentacion.<br>Hablar las mismas expresiones que tiene el publico es un factor importante.<br>Un buen diseño de los pasos, comunicacion y estructura de la presentacion para un mejor impacto."
+                    ,"Comparte tus fuentes de datos, hipotesis y validaciones.","Establece credibilidad de tus conclusiones sobre la marcha","Organiza la informacion en categorias logicas basadas en la informacion que tienes.",
+                    "Identificar los mejores formatos para presentar la data y el resumen de la misma."
+            ]}
+        ],
+        "imgText2":[
+            {"img":"img/foto4.png","text":"El poder de la visualizacion para contar historias atravez de graficos y descripcion de figuras es dar vida a los datos.<br>Graficos-Barras-Diagramas."}
+        ]
+}
+}

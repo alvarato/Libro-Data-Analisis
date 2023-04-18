@@ -1,0 +1,18 @@
+{
+    "titulo":"Gráficos de dispersión",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Los gráficos de dispersión son ideales para analizar cómo se asientan los diferentes objetivos en torno al tema principal y sus diversas dimensiones. Por ejemplo, puedes comparar rápidamente los tipos de productos en función al presupuesto y los precios de venta. Los gráficos de dispersión tienen algunos elementos diferentes: marcadores, puntos y líneas rectas. Todos ellos pueden indicar y conectar unidades de datos dispares. Puede elegir dibujar un gráfico de dispersión solo con marcadores o con líneas. Generalmente, los marcadores son ideales para puntos de datos pequeños, mientras que las líneas son útiles para puntos de datos grandes."
+         ,"Los gráficos de dispersión tienen puntos similares a los gráficos de líneas, ya que ambos utilizan ejes verticales y horizontales para mostrar diferentes puntos de datos, pero los tipos de dispersión también pueden mostrar el grado de diferencia de una variable con respecto a la otra, lo que se conoce como correlación. Las correlaciones pueden ser positivas, negativas o iguales a cero. Las positivas, por ejemplo, significan que los datos aumentan simultáneamente la mayor parte del tiempo en función del tiempo dado."   ],
+        ["<c style='font-size:35px;'>Python</c>",
+        "import seaborn as sns","import matplotlib.pyplot as plt","df = sns.load_dataset('iris')",
+        "sns.regplot(x=df['sepal_length'], y=df['sepal_width'], line_kws={'color':'r','alpha':0.7,'lw':5})",
+        "plt.show()",
+        "<img src='img/bloque4/regresion.png' alt=''>",
+        "<cg>#Se puede mejorar los margenes del grafico</cg>",
+        "<cr><a href='https://www.python-graph-gallery.com/42-custom-linear-regression-fit-seaborn' target='_blank'>Mas ejemplos</a>"
+    ]
+],
+    "orden":["texts","blueColor"]
+}

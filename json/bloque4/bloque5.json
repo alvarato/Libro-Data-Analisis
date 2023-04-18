@@ -1,0 +1,15 @@
+{
+    "titulo":"Gráficos de araña y de radar",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Los gráficos de araña y de radar también se conocen como gráficos de red, gráficos de estrellas o gráficos polares. Si tiene un gran conjunto de grupos de datos diferentes, el uso de los gráficos de araña y de radar es mejor que el de columnas. El gráfico de radar es útil para mostrar múltiples grupos de datos en términos de diagramas 2D de al menos tres variables en los ejes."
+        ,"Recursos humanos (RRHH) suele utilizar los gráficos de araña o de radar para comprobar el patrón de habilidades de los distintos grupos de empleados y su rendimiento profesional. Además, los gestores de productos de las organizaciones de TI o comerciales pueden utilizar estos gráficos para comparar diferentes productos en una amplia gama de características, como mostrar un conjunto de varios productos eléctricos inteligentes en función de su calidad, los datos de una batería, la apariencia y los procesadores. Así, los consumidores pueden elegir fácil y rápidamente la mejor opción en función de sus preferencias."
+        ],["<c style='font-size:35px;'>Python</c>",
+        "Es muy largo el codigo esta todo en el link",
+        "<img src='img/bloque4/spider.png' alt=''>",
+        "<cr><a href='https://matplotlib.org/stable/gallery/specialty_plots/radar_chart.html' target='_blank'>Codigo</a>"
+    ]
+],
+    "orden":["texts","blueColor"]
+}

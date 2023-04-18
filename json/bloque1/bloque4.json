@@ -1,0 +1,20 @@
+{
+    "titulo":"Funciones y Fechas",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[{"titulo":"Agregar columnas con Funciones","texts":[
+        "Input: collection of values"
+        ,"Output: Unico valor o Nulo"
+        ,"Ejemplos: SUM(), MIN(), MAX(), AVG(), etc."
+        ,"<cb>SELECT SUM(unidades) FROM</cb> book;"
+        ,"<cg>Retorna todas las unidades vendidas del libro</cg>"
+        ,"ROUND(): redondea el valor a entero","LENGTH() devuelve un entero con al cantidad de caracteres",
+        "UCASE(),LCASE() devuelve los valores en Uppercase o Lowercase"]},
+        {"titulo":"Fechas y Horas","texts":[
+            "<cg>Muchas DB contienen distintos tipos de datos para las fechas.</cg>",
+            "DATE: YYYYMMDD","TIME: HHMMSS","TIMESTAMP: YYYYXXDDHHMMSSZZZZZZ","Date/Time functions:<br><cb>YEAR(), MONTH(), DAY(), DAYOFMONTH(), DAYOFWEEK(), DAYOFYEAR(), WEEK(), HOUR(), MINUTE(), SECOND()</cb>",
+            "Ejemplos:<br><cb>SELECT DAY(saledate) FROM petsale WHERE animal ='cat';<br>SELECT COUNT(*) FROM petsale WHERE MONTH(saledate)= '05';<br>SELECT (saledate + 3 ) FORM petsale;</cb>"]}
+
+],
+    "orden":["listD","listD"]
+}

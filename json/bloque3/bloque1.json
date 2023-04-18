@@ -1,0 +1,27 @@
+{
+    "titulo":"Pandas",
+    "subtitulo":"Link: <a href='https://pandas.pydata.org/' target='_blank'>Pandas.org</a>",
+    "moreInfo":"",
+    "bloque":[
+        ["import pandas as pd","url ='https://....'","df = pd.read_csv(url)<cg>//despues podemos especificar si no existe un encabezado (url, head = None) </cg>",
+        "<cg>pd.read_'tipo' json,xlms,csv,sql,dataFrame.</cg>",
+        "df.head(n)<cg>//propiedad que muesta el dataframe n = cantidad que queremos ver en orden desendente .tail(n) ascendente</cg>",
+        "df.columns = ['nombre columna 1',....'nombre columna x']",
+        "df.to_'type'(name)<cg>// codigo real ej: df.to_csv('desk') name = nombre del archivo</cg> ",
+        "df.types<cg>// Imprime todos los tipos de datos de cada columna</cg>",
+        "df.describe()<cg>//Retorna una tabla con estadistica descriptiva Count-meand- std-min-max-cuartiles</cg>"],
+        {"titulo":"Para que utilizamos Pandas?","texts":["Missing Values","Data Formating","Normalizacion","Data Binning-Agrupacion","Cambios de categoria string->number"]}
+        ,["Como Remplazamos o eliminamos datos?",
+        "Para eso utilizamos df.dropna(subset=['columna'], axis=0, inplace = true)","<cg>subset: ['nombre de la columna'], axis: tiene 2 valores posibles 0 y 1 0-borra toda la fila y 1-borra toda la columna, inplace True o Flase afecta si modifica el mismo df.</cg>",
+        "Como remplazamos un Valor?, Calculamos la media y remplazamos los NAN<br> <cb>mean = df['price'].mean()<br>df['price'].replace(np.nan,mean,inplace=True)</cb><cg>//np.nan No son numeros</cg>",
+        "Data Formating","Ej: tenemos una columa de city: y algunos de los datos son: nueva York- NuevYork- NV o queremos estandarizar los datos",
+        "<cb>df['length'] = df['length']/df['length'].max</cb>",
+        "<cb>df.replace(['nueva York','NY','NuevaYork'], 'New York',inplace = True)</cb><cg>// EL inplace por defecto es False si no se especifica</cg>",
+        "Cambiamos el Tipo","<cb>df['price'] = df['price].astype('int')</cb>","Podemos contar las repeticiones de un mismo valor de un df","<cb>df['door'].value_counts()</cb>",
+        "Resultado:<br>foor 114<br>two 89<br>name: door, dtype= int64",
+        "Mas metodos para explorar en: <a href='https://pandas.pydata.org/docs/reference/frame.html' target='_blank'>link</a>"
+    ]
+
+],
+    "orden":["blueColor","listD","texts"]
+}

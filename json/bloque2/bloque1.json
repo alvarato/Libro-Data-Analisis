@@ -1,0 +1,14 @@
+{
+    "titulo":"EDA",
+    "subtitulo":"Exploratory Data Analisis",
+    "moreInfo":"",
+    "bloque":[
+        ["El análisis de datos exploratorio (EDA) lo utilizan los científicos de datos para analizar e investigar conjuntos de datos y resumir sus principales características, empleando a menudo métodos de visualización de datos. Ayuda a determinar la mejor manera de manipular los orígenes de datos para obtener las respuestas que necesita, lo que permite a los científicos de datos descubrir patrones, detectar anomalías, probar una hipótesis o comprobar supuestos."],
+        {"titulo":"","texts":["Resumen de las principales caracteristicas de la data",
+        "Obtener un mejor entendimiento de la data","Descubrir relaciones entre variables","Saber las importancias de las variables"]},
+        ["Pregunta?","Que caracteristicas tienen mayor impacto en (ej: en el precio de un automovil)?"],
+        {"titulo":"","texts":["Estadistica descriptiva","Agrupacion","ANOVA","Correlacion"]}
+
+],
+    "orden":["blueColor","listD","texts","listD"]
+}

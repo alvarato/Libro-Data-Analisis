@@ -1,0 +1,44 @@
+{
+    "titulo": "El Proceso del Analisis de Datos",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        {
+                "titulo":"Entender el problema y pensar el resultado deseado",
+                "texts":["Definir donde estamos y donde queremos estar."]
+            },{
+                "titulo":"Definir medidas claras",
+                "texts":["Decidir que medidas utilizaremos y como las usaremos."]
+            },{
+                "titulo":"Recopilar Data",
+                "texts":["Identificar que informacion requerimos, los recursos,de donde obtendremos la data y las mejores herramientas para ello."]
+            },{
+                "titulo":"Limpiar la Data",
+                "texts":["Mejorar la calidad de uso de la informacion y estandarizar la data de distintos recursos."]
+            },{
+                "titulo":"Analisis y Mineria de Data.",
+                "texts":["Extraer, analizar y manipular la data desde difrentes perspectivas para entender tendencias, identificar correlaciones, encontrar patrones y variaciones."]
+            },
+            {
+                "titulo":"Interpretar Resultados",
+                "texts":["Evaluar la veracidad del alanisis y las circunstancias por las cuales el analisis no pueda estar correcto."]
+            },{
+                "titulo":"Presentar tus Descubrimientos",
+                "texts":["Utilizando Graficos y herramientas para mejora la exposicion."]
+            }
+        ,
+        {
+            "titulo":"En Resumen",
+                "texts":["Entender el Problema y desidir","Definir medidas Claras","Recopilar Data","Limpiar la Informacion",
+                "Analisis y mineria de Datos","Interpretar los Resultados","Presentar los Resultados"]
+        },
+        {
+            "titulo":"Resposabilidades del Analista de Datos",
+            "texts":["Adquirir Data","Crear Querys para extraer la informacion requerida",
+            "Filtrar, limpiar, estandarizar y reoganizar data para la preparacion del DA",
+            "Usar herramientas de estadistica para intepretar los data sets","Usar tecnicas estadisticas",
+                "Analizar patrones","Preparar reportes y graficos","Crear documentacion apropiada"]
+        }
+    ],
+    "orden":["listD","listD","listD","listD","listD","listD","listD","listO","listD"]
+}

@@ -1,0 +1,25 @@
+{
+    "titulo": "Profecionales de la Data",
+    "subtitulo":"Ingeniero de Datos, Analista de Datos, Cientifico de Datos y Analista de Negocios y BI Analista",
+    "moreInfo":"En este Bloque veremos los difrentes profecionales que trabajan en el mundo de la Data",
+    "bloque":[
+        ["Ingeniero de Datos","Son los encargados de desarrollar, mantener la arquitectura de datos y dejar los datos a disponibilidad"],
+        {"titulo":"","texts":["Trabajo","Extraer, integrar y organizar la DATA","Limpiar, transformar y preparar la DATA",
+                        "Diseñar, almacenar y manejar la DATA en los repositorios"]},
+        {"titulo":"","texts":["Skills","Buenos conocimientos de programacion",
+                        "Buenos conocimientos de sistemas, tecnologias y arquitecturas",
+                        "Profundo entendimiento de las Bases de Datos (database-db) relacionales (SQL), no relacionales (NO-SQL)"]},
+        ["Analista de Datos","Traduce datos y numeros en un lenguaje sencillo, de modo que sirvan para la toma de deciciones"],
+        {"titulo":"","texts":["Trabajo","Inspecionar y limpiar DATA para derivar en ideas",
+                "Identificar correlaciones, encontrar patrones y aplicar metodos estadisticos para el analisis y la mineria de datos",
+                "Visualizar DATA para la intrepretacion y presentacion"]},
+        {"titulo":"","texts":["Skills","Buen manejo de spreadsheets (Exel), QUERYS (Lenguaje de consultas para SQL db), uso de herramientas estadisticas para la creacion de graficos",
+                "Programacion",
+                "Pensamiento Analitico y habilidades par ael story-telling"]},
+        ["Cientifico de Datos","Los cientificos de datos analizan la DATA para obtener conocimientos procesables y crean modelos de machine learning o deep learning, que se entrenan con datos historicos para crear modelos de prediccion"],
+        {"titulo":"","texts":["Trabajo","analizar la DATA para procesar ideas",
+                "Crear modelos predictivos usando machine learning o deep learning"]},
+        {"titulo":"","texts":["Skills","Conocimientos de Matematicas y Estadisticas","Entendimiento de lenguajes de progamacion de db y creacion de modelos","Dominio del tema"]}
+        ],
+        "orden":["blueColor","listD","listD","blueColor","listD","listD","blueColor","listD","listD"]
+}

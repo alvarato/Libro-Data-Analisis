@@ -1,0 +1,33 @@
+{
+    "titulo":"Stament",
+    "subtitulo":"",
+    "moreInfo":"'Nombre de la tabla book'",
+    "bloque":[
+        {"titulo":"SELECT","texts":    ["Su uso es es el Read del CRUD","<cb>SELECT * FROM </cb>book (obtendremos toda la tabla y todos sus campos *)",
+        "<cb>SELECT id, nombre, autor,isbn,price FROM</cb> book (obtendremos las columnas de la tabla que escribimos)",
+            "Clausula WHERE agregamos un condicional",
+            "<cb>SELECT id, nombre, autor,isbn,price FROM</cb> book <cb>WHERE price>=</cb> '10'",
+            "<cg>Los operadores logicos son iguales a los que se utilizan en los leguajes de programacion agregando < > difrente a.</cg>"
+    ]
+
+        }
+,
+    {"titulo":"COUNT, DISTINCT y LIMIT","texts":["Count cuenta la cantidad de filas en una tabla","<cb>SELECT COUNT (*) FROM</cb> book; (Retorna x numero de coincidencias)",
+        "<cb>SELECT DISTINCT <cr>columname</cr> FROM</cb> book; (Retorna todos los valores que sean distintos de esa columna)",
+        "<cb>SELECT * FROM</cb> book <cb>LIMIT</cb> 10; (Retorna las 10 primeras filas)",
+        "<cg>A todos estos stament se les puede agregar la clausula WHERE</cg>"]
+
+    },
+    {"titulo":"INSERT","texts":["<cb>INSERT INTO book(key,key,key,..)</cb>","<cb>VALUES(value,value,value),(value,value,value),...</cb>",
+    "<cg>Cunado demilitas los datos, dentro del values puedes insertar la cantidad de datos que quieras.</cg>"]},
+    {"titulo":"UPDATE","texts":["Con el update Podemos modificar los valores que estan en la tabla aplicando una condicion.",
+    "<cb>UPDATE tableName SET columName = <cr>value</cr> WHERE <cr>condicion</cr>;</cb>",
+    "<cg>Podemos concatenar varios <cb>columName =</cb> <cr>value</cr></cg>",
+    "<cg>Hay que tener mucho cuidado si no utilizamos una clausula <cr>WHERE</cr> podemos modificar todos los datos</cg>"]},
+    {"titulo":"DELETE","texts":["Con el DELETE Podemos eliminar columnas valores que estan en la tabla aplicando una condicion.",
+    "<cb>DELETE FROM tableName WHERE columName = <cr>value</cr>;</cb>",
+    "<cg>Hay que tener mucho cuidado si no utilizamos una clausula <cr>WHERE</cr> podemos eliminar todos los datos</cg>"]}
+
+],
+    "orden":["listD","listD","listD","listD","listD"]
+}

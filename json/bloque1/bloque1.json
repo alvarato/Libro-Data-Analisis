@@ -1,0 +1,14 @@
+{
+    "titulo":"Instrucciones de Base de Datos",
+    "subtitulo":"DDL vs DML",
+    "moreInfo":"",
+    "bloque":[
+    {"titulo":"DDL","texts":["Data Definition Language","Define, cambia o borra data"]},
+    {"titulo":"DML","texts":["Data Manipulation Language","Lee y modifica la data."]},
+    {"titulo":"En las BBDD las tablas se crean apartir de:","info":"<br>Nombre de la tabla<br>PK (primary key)<br>FK (Foreign Key)<br>dato: key-value<br><br><cb>Las fk son las pk de otra tabla con la cual se establece la relacion</cb>","img":"https://images4.pianshen.com/997/36/36c6781f3d318888e7decd72d35d1f2d.png"},
+    ["Como crear una tabla","CREATE TABLE author(","author_id INT NOT NULL PRIMARY KEY,","name NOT NULL VARCHAR(20),","PersonID INT,","FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)",");",
+    "<cg>La fk hace referencia a otra tabla con su id<br>En cada DBMS hay ligeros cambios al usal el SQL</cg>","drop table author;"]
+
+],
+    "orden":["listD","listD","imgText300px","blueColor"]
+}

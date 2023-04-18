@@ -1,0 +1,17 @@
+{
+    "titulo":"Box Plot",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Un diagrama de caja (también, diagrama de caja y bigotes o box plot) es un método estandarizado para representar gráficamente una serie de datos numéricos a través de sus cuartiles. De esta manera, se muestran a simple vista la mediana y los cuartiles de los datos,1​ y también pueden representarse sus valores atípicos. Conviene recordar que se utilizan las bisagras de Tukey, y no los cuartiles, a la hora de dibujar la caja del gráfico, aunque los resultados son semejantes en muestras grandes."
+       ,"El diagrama de caja incluye los siguientes elementos:","<br>rango (sin datos atípicos)<br>datos atípicos<br>rango intercuartil (también conocido como RIC)<br>cuartiles (Q1, Q2 y Q3)<br>mediana (Q2)<br>mínimo y máximo"],
+        ["<c style='font-size:35px;'>Python</c>",
+        "import seaborn as sns","import matplotlib.pyplot as plt","sns.set(style='darkgrid')","df = sns.load_dataset('iris')",
+        "sns.boxplot(y=df['sepal_length'])","plt.show()",
+        "<img src='img/bloque4/boxplot.png' alt=''>",
+        "<cg>#Se puede mejorar los margenes del grafico</cg>",
+        "<cr><a href='https://jingwen-z.github.io/data-viz-with-matplotlib-series7-area-chart/' target='_blank'>Mas ejemplos</a>"
+    ]
+],
+    "orden":["texts","blueColor"]
+}

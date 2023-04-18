@@ -1,0 +1,25 @@
+{
+    "titulo":"Patrones, Rangos y Sets",
+    "subtitulo":"El fin de un BD no es solo almacenar datos si no facilitarlos.",
+    "moreInfo":"",
+    "bloque":[["En una busqueda siempre que apliquemos un <cb>WHERE</cb> neceistamos una condicion, pero no siempre sabremos exatamente que valor poner.",
+        "Los patrones de cadena se utilizan para ver coincidencais dentro de una cadena de caracteres."],
+        {"titulo":"<cb>LIKE</cb>","texts":["<cb>WHERE <cr>column</cr> LIKE '%R%';</cb> (dara como resultado todos las filas donde en esa columna en cualquier parte se encuentre la letra 'R')",
+            "Si queremos buscar todos los datos que terminen en R usamos <cb>WHERE <cr>column</cr> LIKE '%R';</cb>"]},
+        ["Podemos utilizar rangos de valores"],
+        {"titulo":"<cb>AND, OR, IN ,BETWEEN</cb>","texts":["<cb>WHERE <cr>column</cr> >= 290 AND <cr>column</cr> <=300;</cb>",
+        "<cb>WHERE <cr>column</cr> BETWEEN 290 AND 300;</cb>",
+        "<cb>WHERE <cr>column</cr> = x OR <cr>column</cr> = y;</cb>","<cb>SELECT * FROM book ORDER BY <cr>column</cr></cb>"]},
+        {"titulo":"<cb>ORDER BY</cb>","texts":["<cb>WHERE <cr>column</cr> >= 290 AND <cr>column</cr> <=300;</cb>",
+        "<cg>Selecionamos la tabla y la ordenamos alfabeticamente o por num segun la tabla. Por defecto el ORDER BY esta de manera ascendente</cg>",
+            "Para ordenarlo descendente utilizamos <cb>ORDER BY DESC</cb>"
+            ]},
+        {"titulo":"<cb>GROUP BY y HAVING</cb>","texts":["<cb>SELECT country, count(country) AS count FROM author GROUOP BY country</cb>",
+            "<cg>Selecionamos nombre y cantidad de veces que se enceuntra, asignandole el nombre count con el AS en el grupo de country</cg>",
+                "<cb>SELECT country, count(country) AS count FROM author GROUOP BY country HAVING count(country) > 4</cb>",
+                "<cg>Es la misma seleccion solo que solo obtendremos los paises que se repitan mas de 4 veces</cg>",
+                "<cg>La clausula HAVING solo funciona si esta combinada con GROUP BY</cg>"
+                ]}
+],
+    "orden":["texts","listD","texts","listD","listD","listD"]
+}

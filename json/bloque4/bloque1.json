@@ -1,0 +1,23 @@
+{
+    "titulo":"Gráficos de Barras",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Los gráficos de columnas son eficaces para la comparación de al menos un conjunto de puntos de datos. El eje vertical, también conocido como eje Y, suele mostrarse en valores numéricos. El eje X en la línea horizontal indica un período.",
+        "Normalmente, los puntos de datos en los gráficos de columnas tienen estos tipos: Flores, Arbustos, Agrupados, Apilados y Árboles. Puedes encontrar tendencias a lo largo del tiempo utilizando estos tipos en diferentes colores. Un gráfico de columnas agrupadas es especialmente útil para mostrar y analizar múltiples conjuntos de datos. En el caso de los gráficos de columnas apiladas, puede comprobar rápidamente un porcentaje específico de los datos globales.",
+        "Los gráficos de barras sirven para comparar conceptos y porcentajes entre factores o conjuntos de datos. Los usuarios pueden establecer diferentes opciones distintas para sus encuestados, por ejemplo, ventas anuales o trimestrales. Puedes ver que los gráficos de barras son similares a los gráficos de columnas en su eje X.",
+        "Si no estás seguro de cuándo insertar un gráfico de barras en tu trabajo, debes pensar en el tipo específico de tus datos originales y en tu preferencia personal. Por lo general, en comparación con otros tipos de gráficos, los gráficos de barras son mejores para mostrar y comparar grandes conjuntos de datos o números.",
+        "<cb style='font-size:35px;'>Python</cg>"],
+        [
+        "import pandas as pd","import matplotlib.pyplot as plt","import numpy as np",
+        "<cg># Leer el archivo en línea desde la URL de arriba y asignarla a la variable df</cg>",
+        "other_path = 'https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DA0101EN/auto.csv'",
+        "df = pd.read_csv(other_path, header=None)",
+        "headers = ['symboling','normalized-losses','make','fuel-type','aspiration', 'num-of-doors','body-style','drive-wheels','engine-location','wheel-base','length','width','height','curb-weight','engine-type','num-of-cylinders', 'engine-size','fuel-system','bore','stroke','compression-ratio','horsepower','peak-rpm','city-mpg','highway-mpg','price']",
+        "df.columns = headers","dfbar = pd.DataFrame(df['make'].value_counts())","dfbar.plot(kind='bar')","plt.show()",
+        "<img src='img/bloque4/bar.png' alt=''>",
+        "<cg>#Se puede mejorar los margenes del grafico</cg>",
+        "<cr><a href='https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_colors.html' target='_blank'>Mas ejemplos</a>"]
+],
+    "orden":["texts","blueColor"]
+}

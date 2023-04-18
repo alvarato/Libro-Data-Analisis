@@ -1,0 +1,77 @@
+.container{
+    width: 98%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+.indice{
+    width: 15%;
+    border: solid;
+    max-height: max-content;
+    padding: 5px;
+}
+.data{
+    width: 80%;
+    border: solid;
+    min-height: 300px;
+    max-height: max-content;
+    padding: 15px;
+}
+h1{
+    text-decoration: underline purple;
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+.titulos{
+    width: 100%;
+    text-align: center;
+}
+li{
+    font-size: 18px;
+    font-family: cursive;
+}
+.underline{
+    text-decoration: underline purple;
+}
+.comparativeBox2{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+.comparativeBox2Box{
+    width: 48%;
+    border: solid;
+    display: block;
+}
+.imgText{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.imgText300px{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.imgText300px img{
+    height: 300px;
+    width: 300px;
+}
+.imgText300px p{
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    height: 90%;
+    max-width: 300px;
+}
+p{font-size: 22px;}

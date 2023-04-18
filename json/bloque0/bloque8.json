@@ -1,0 +1,33 @@
+{
+    "titulo": "Identificar Data para el Analisis",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":{
+        "listasD":
+        [{
+                "titulo":"Paso 1, Determina la informacion que quieres recolectar.",
+                "lista":["Especificar la informacion necesaria","Posibles recursos de donde obtenerla"]
+            },{
+                "titulo":"Paso 2, Definir el plan de colecta",
+                "lista":[]
+            },{
+                "titulo":"Paso 3, Definir el metodo de recoleccion dependen de:",
+                "lista":["Recursos de data","Tipo de data","Tiempo","Volumen de datos"]
+            },{
+                "titulo":"Los datos recopilados y sus metodos de captura deben:",
+                "lista":["Tener Calidad","Resguardar Seguirad","Respetar la Privacidad"]
+            },{
+                "titulo":"Calidad de Datos",
+                "lista":["Libre de errores","Preciso","Completos","Reelevantes","Accesibles"]
+            },{
+                "titulo":"Gobierno de datos",
+                "lista":["Seguridad","Regulaciones","Cumpliemiento"]
+            },{
+                "titulo":"Privacidad de Datos",
+                "lista":["Confidencial","Licencia de uso","Cumplimiento de las regulaciones"]
+            }
+
+        ]
+
+    }
+}

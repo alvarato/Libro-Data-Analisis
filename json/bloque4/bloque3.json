@@ -1,0 +1,25 @@
+{
+    "titulo":"Gráficos de área",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Los gráficos de área son muy similares a los gráficos de líneas, pero los anteriores tienen líneas de trazado sólidas. Los gráficos de área son ideales para mostrar las tendencias a lo largo de un período para una o varias categorías, o el cambio entre varios grupos de datos. Los gráficos de área tienen dos tipos principales: el gráfico de área apilado y el apilado completo. Ambos tipos pueden mostrar la naturaleza de los conjuntos de datos seleccionados."
+         ,""   ],
+        ["<c style='font-size:35px;'>Python</c>",
+        "import datetime","import numpy as np","import pandas as pd","import matplotlib.pyplot as plt","turnover = [2, 7, 14, 17, 20, 27, 30, 38, 25, 18, 6, 1],",
+        "plt.fill_between(np.arange(12), turnover,color='skyblue', alpha=0.4)",
+        "plt.plot(np.arange(12), turnover, color='Slateblue',alpha=0.6, linewidth=2)",
+        "plt.tick_params(labelsize=12)","plt.xticks(np.arange(12), np.arange(1,13))","plt.xlabel('Month', size=12)","plt.ylabel('Turnover (K euros) of ice-cream', size=12)",
+        "plt.ylim(bottom=0)","year_n_1 = [1.5, 3, 10, 13, 22, 36, 30, 33, 24.5, 15, 6.5, 1.2]",
+        "year_n = [2, 7, 14, 17, 20, 27, 30, 38, 25, 18, 6, 1]",
+        "plt.fill_between(np.arange(12), year_n_1, color='lightpink',alpha=0.5, label='year N-1')",
+        "plt.fill_between(np.arange(12), year_n, color='skyblue',alpha=0.5, label='year N')",
+        "plt.legend()",
+        "plt.show()",
+        "<img src='img/bloque4/area.png' alt=''>",
+        "<cg>#Se puede mejorar los margenes del grafico</cg>",
+        "<cr><a href='https://jingwen-z.github.io/data-viz-with-matplotlib-series7-area-chart/' target='_blank'>Mas ejemplos</a>"
+    ]
+],
+    "orden":["texts","blueColor"]
+}

@@ -1,0 +1,25 @@
+{
+    "titulo":"Subqueries y Consultas Anidadas",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[  {"titulo":"Que es una subQuery?","texts":[
+        "Te permite realizar una sub-busqueda.",
+        "<cb>SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);</cb>",
+        "<cb>SELECT emp_id, salary, (SELECT AVG(salary) FROM employees) AS avg_salary FORM employees</cb>"]},
+        {"titulo":"Consultas Anidadas","texts":[
+            "Te permite realizar una sub-busqueda.",
+            "<cb>SELECT * FROM employees WHERE dep_id IN (SELECT dept_id_dep frim departments);</cb>",
+            "<cg>En la subconsulta tenemos que extrar un dato que coincida con la primera Query.</cg>",
+            "<cb>SELECT * FROM employees e, departments d WHERE e.dep_id = d.dept_id_dep;</cb>",
+            "<cb>Esto es un JOIN, las letras son alias para las tablas.</cb>",
+            "<cb>SELECT e.name, d.name FROM employees e, departments d WHERE e.dep_id = d.dept_id_dep;</cb>"]},
+            {"titulo":"JOINs","texts":[
+                "<cg>Combina filas con dos o mas Tablas.</cg>",
+                "<cg>Para poder utilizar el JOIN tenemos que identificar la relacion que existe entre 2 tablas.</cg>",
+                "Cuando utlizamos INNER JOIN solo devuelve el conjunto de datos si existe coincidencia",
+                "<cb>SELECT b.prestamo_id, b.nombre, l.nombre, l.id FROM PRESTAMO b INNER JOIN LIBRO l ON b.libro_id = l.id;</cb>"]}
+
+        
+],
+    "orden":["listD","listD","listD"]
+}

@@ -1,0 +1,27 @@
+{
+    "titulo": "Ecosistema de los Datos",
+    "subtitulo":"Existen difrentes tipos de formatos para los Datos",
+    "moreInfo":"",
+    "bloque":{
+        "imgText":[
+            {"img":"/libros/img/sql.png","text":"Estructurados - Bases de Datos o spreandsheet (EXEL)."},
+            {"img":"/libros/img/foto5.png","text":"Semi-Estructurados - Bases de Datos No Relacionales NO-SQL."},
+            {"img":"/libros/img/youtube.png","text":"No-Estructurados - Fotos,Videos,Texto,etc."}
+        ],
+        "data":" Que es data? </br> Los datos son informacion no organizada, que se procesa para convertirla en informacion significativa",
+        "moreInfo":"Se pueden almacenar en:",
+        "listasD":
+        [{
+                "titulo":"Estructurado",
+                "lista":["SQL DATABASE","Online Transacction Processing OTP","Spreadsheets","OnlineForms","Semspres GPS y RFID",
+                    "Internet y web server logs"]
+            },{
+                "titulo":"Semi-Estructurados",
+                "lista":["E-mails","XML,JSON","Binary Executables","TPC/IP packages","Zipped files","Intregration de Data"]
+            },{
+                "titulo":"Destructurados",
+                "lista":["Paginas Web","Redes Sociales","Imagenes","Videos y Audios","Documentos pdf, etc"]
+            }
+        ]
+    }
+}

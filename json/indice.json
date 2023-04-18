@@ -1,0 +1,11 @@
+{
+    "titulo":"Indice",
+    "bloque":[
+        {"titulo":"DataAnalisis","subtitlos":["Trabajos","Tipos de Analisis","El Proceso DA","Skills del Analista"]},
+        {"titulo":"Bases de Datos","subtitlos":["DDL vs DML","Staments","Operadores","Funciones y Fechas","Subqueries"]},
+        {"titulo":"Estadistica","subtitlos":["EDA"]},
+        {"titulo":"Python","subtitlos":["Pandas"]},
+        {"titulo":"Graficos","subtitlos":["Bar","Pie","Area","Regresión","Spider","Box Plot","DashBoard"]}
+    ]
+    
+}

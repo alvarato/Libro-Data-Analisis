@@ -1,0 +1,10 @@
+{
+    "titulo":"Bienvenido a Data Analisis",
+    "subtitulo":"Este E-book es un resumen de mis Notas",
+    "moreInfo":"Este E-book principalmente es un resumen del curso de IBM, pero tambien contiene Info de otros cursos y estudios que realice.",
+    "bloque":[
+        ["El libro en si es un resumen sobre el Data Analisis, SQL, Python y PowerBY",
+        "Esta el indice a la Izquierda y al dar click entra al documento."]
+    ],
+    "orden":["texts"]
+}

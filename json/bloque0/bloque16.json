@@ -1,0 +1,28 @@
+{
+    "titulo": "Herramientas del Data Mining",
+    "subtitulo":"Los mas populares son",
+    "moreInfo":"",
+    "bloque":{       
+        "listasD":[
+            {
+                "titulo":"",
+                "lista":["Spreadsheests","R-language","Python","IBM SPSS Statistics","IBM Watson Studio","SAS"]},{
+                "titulo":"<g class='colorBlue'>Spreadsheests</g><br> son Exel o Google Spreadsheets son muy comunes en el data mining para tareas basicas de este.",
+                "lista":["Hosting data","Facilidad para exportar a otros tipos de datos","Facil acceso y Facil visibilidad.",
+                "Crear tablas pivot para mostrar casos especificos de data.","Dibujos comparativos entre set de data."]
+            },
+            {
+                "titulo":"<g class='colorBlue'>R-language</g><br> Es uno de los lenguajes mas populares para crear modelos estadisticos de datos, computacion estadistica y mineria de datos.<br>Utilizando librerias de R se pueden crear modelos de data mining de:",
+                "lista":["Regression","Classification","Data Clustering (agrupamiento)","Association Rule Mining","Text Mining","Outlier Detection","Social Network Analysis"]
+            },
+            {
+                "titulo":"<g class='colorBlue'>Python</g><br> Es un lenguaje de programacion de multiparadigma muy versatil y facil de usar.<br>Librerias de Phyton.",
+                "lista":["Pandas: libreria open-soure para trabajar con estructuras de datos.",
+                "Pandas te permite descargar data en cualquier formato, organizarla, ordenarla y manipularla de forma sencilla.",
+                "NumPy: herramienta para matematica compuacional y data prepare.",
+                "Jupyter Notebooks: es una herramienta fundamental para el Data Scient y el Data Analysis.",
+                "Text Mining","Outlier Detection","Social Network Analysis"]
+            }
+        ]
+}
+}

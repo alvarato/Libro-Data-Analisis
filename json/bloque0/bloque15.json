@@ -1,0 +1,36 @@
+{
+    "titulo": "Data Mining",
+    "subtitulo":"Es el proceso de extracion de informacion de la data.",
+    "moreInfo":"Es un proceso interdisiplinario que implica el uso de tecnologias de reconocimiento de patrones, analisis estadistico y tecnicas matematicas.<br>Su objetivo es identificar correlaciones entre los datos, encontrar patrones, entender tendecias y predecir probabilidades.",
+    "bloque":{
+        "imgText":[
+            {"img":"img/foto3.png","text":"PATTERNS <br> (Pattern recognition) Es el reconocimiento de patrones, el descubrimiento de la regularidad o normalidades en la data. <br>Analisamos a los usuarios -> analisamos su comportamiento -> obtenemos patrones y comportamientos.<br> ej: Horas mas populares, tipos de usuarios, etc"},
+            {"img":"img/foto5.png","text":"TRENDS <br> Tendencias lo que predomina en un set de data del cambio a medida que pasa el tiempo.<br>Ej: [2005-51c],[2010-52c],[2015-53c] cada 5 años aumenta 1c"}
+        ],
+        "listasD":
+        [{
+                "titulo":"Aplicaciones del data mining",
+                "lista":["Elaboracion de perfiles del comportamiento, necesidades e ingresos disponibles para ofrecer campañas adecuadas.",
+                    "Rastrear las transacciones de los clientes en busqueda de comportaminetos inusuales y marcar las transacciones fraudulentas mediante modelos.",
+                    "El uso de modelos estadisticos para predecir distintos trastornos en la salud y dar prioridad en tratamientos.",
+                    "El acceso a datos de rendimiento de estudiantes para predecir los niveles, para mejorar el desarrollo y rendimiento de los mismos.",
+                    "Ayudar en investigacione y descubrir zonas donde la probabilidad de que suceda un delito sea mayor.",
+                    "Mejora de logistica."
+                ]
+            },{
+                "titulo":"Tecnicas del Data Mining",
+                "lista":["<g class='colorBlue'>Descriptiva</g>","<g class='colorBlue'>Diagnostico</g>","<g class='colorBlue'>Preditiva</g>","<g class='colorBlue'>Modelo Predictivo</g>"]
+            }
+        ],"imgText2":[
+            {"img":"img/foto3.png","text":"<g class='colorBlue'>Clasificacion:</g> Clasfica los atributos en categorias objetivo<br>Ej: Clasificar los clientes en nivel de ingresos [bajos,medios,altos]"},
+            {"img":"img/foto5.png","text":"<g class='colorBlue'>Agrupacion:</g> es similar a clasifircar pero implica <a target='_blank' href='https://www.tibco.com/es/reference-center/what-is-cluster-analysis'>clusteres</a> para tratarse los grupos."},
+            {"img":"img/foto2.png","text":"<g class='colorBlue'>Anomalias:</g> Encontrar patrones y detectar anomalias."},
+            {"img":"img/foto4.png","text":"<g class='colorBlue'>Reglas de asociación:</g> se utilizan para descubrir hechos que ocurren en común dentro de un determinado conjunto de datos."},
+            {"img":"img/foto1.png","text":"<g class='colorBlue'>Secuencias de Patrones:</g> Trazar series de eventos que suceden en una secuencia.<br>(Es un tema muy complejo, Buscar mas info en el curso no explica nada)."},
+            {"img":"img/sql.png","text":"<g class='colorBlue'>Afinidad de Gupo:</g> Descubrir concurrencias y relaciones."},
+            {"img":"img/tree.png","text":"<g class='colorBlue'>Descision Trees</g> Crear clasificaciones de modelos en formato de estructura de arbol con multiples ramas, donde cada rama representa probables ocurrencias."},
+            {"img":"img/home.png","text":"<g class='colorBlue'>Regression</g> Identifica la relacion entre dos variables, cuales podria tener relacion."},
+            {"img":"img/task.png","text":"<g class='colorBlue'>En conclusion: la mineria de datos ayuda a separar el ruido de la informacion real y ayuda a los negocios a enfocarse sus esfuerzo solamente en lo que es relevante.</g>"}
+        ]
+    }
+}

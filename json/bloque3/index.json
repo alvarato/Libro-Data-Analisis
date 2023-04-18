@@ -1,0 +1,10 @@
+{
+    "titulo":"Librerias de Python",
+    "subtitulo":"Este conjunto de librerias son Utilizadas en el mundo del Data Analisis",
+    "moreInfo":"",
+    "bloque":[{"titulo":"Scientifics Computing", "texts":["Pandas - Estructura de datos y herramientas","Numpy - Arrays y Matrices", "SciPy - Math avanzada y Visualizaciones"]},
+    {"titulo":"Visualizacion", "texts":["Matplotlib - Mas Polular","Seaborn Heatmaps"]},
+    {"titulo":"Machine Learning", "texts":["Scikit-learn","statsmodels - Modelos Estadisticos"]}
+],
+    "orden":["listD","listD","listD"]
+}

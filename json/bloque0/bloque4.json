@@ -1,0 +1,32 @@
+{
+    "titulo": "Skills del Analista",
+    "subtitulo":"Existen 3 Tipos </br> Tecnicas, Funcionales y Soft Skills",
+    "moreInfo":"",
+    "bloque":[
+        {
+                "titulo":"Habilidades Tecnicas",
+                "texts":["Muy Buen conocimiento de spreadsheet <gc>Exel o Google sheets</gc>",
+                "Dominio de herramientas de analisis estadistico, herrameintas de visualizacion y software <gc>IBM congos, PowerBY, ...</gc>",
+            "Dominio de lenguajes de Programacion. <cg>R, Phyton, C++, Java y Matlab</gc>",
+            "Conocimientos de SQL y NO-SQL","Poder extraer data de repostorios",
+            "Familiarizado con Procesos de BigDATA <cg>Herramientas como Hadoop Hive, Spark y Kafka.</cg>"]
+            },{
+                "titulo":"Habilidades Funcionales",
+                "texts":["Competencias en Estadisticas <cg>Analisis de datos, validacion de analisis, identificar fallas y errores logicos</cg>",
+                "Skills analiticas <cg>Investigar e interpretar data, teorias, hacer reportes</cg>",
+                "Solucionar Problemas <cg>Crear posibles soluciones</cg>",
+                "Skills de Sondeo <cg>Identificar y definir problemas y decidir la ruta</cg>",
+                "Visualizacion de datos <cg>Crear, limpiar y mostrar visualizaiones de los analisis</cg>",
+                "Project Management Skills <cg>Manejar procesos, personas, depdendecias y horarios.</cg>"]
+            },
+        {
+                "titulo":"Soft Skills",
+                "texts":["Habilidades Trabajo en equipo","Comunicacion Efectiva para reportar tus Descubrimientos","Crear historias convincentes"]
+            },{
+                "titulo":"Curiosidad",
+                "text":["Buscar nuevas preguntas y retos para mejorar y probrar tus hipostesis","Intuicion"]
+            }
+        
+    ],
+    "orden":["listD","listD","listD","listD"]
+}

@@ -1,0 +1,21 @@
+{
+    "titulo": "Que es el Analisis de Datos?",
+    "subtitulo":"El analisis de datos es el proceso de recopilar, limpiar, analizar, extraer datos e interpretar resultados.",
+    "moreInfo":"",
+    "bloque":[
+        [
+            {"name":"nota","text":"Obtener, limpiar analizar y minar"},
+            {"name":"lupa","text":"Interpretar Resultados"},
+            {"name":"vigilancia","text":"Reportar descubrimientos"}
+        ],
+        ["Tenemos que encontrar patrones en los datos y correlacionarlos entre difernetes puntos de datos.",
+            "Mediante estos patrones y correlaciones se generan persepciones y se sacan conclusiones."
+        ],
+        {
+            "titulo":"Data Analisis Ayuda a los Negocios",
+            "lista":["Entender actuaciones pasadas","Tomar desiciones en base a informes",
+                    "Validar el curso de accion salvando recursos y asegurando sucesos"]
+        }
+    ],
+"orden":["imgText","texts","listD"]
+}

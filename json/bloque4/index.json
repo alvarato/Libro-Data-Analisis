@@ -1,0 +1,15 @@
+{
+    "titulo":"Grafico",
+    "subtitulo":"Una gráfica, una representación gráfica o un gráfico es un tipo de representación de datos, generalmente cuantitativos, mediante recursos visuales, para que se manifieste visualmente la relación matemática o correlación estadística que guardan entre sí.",
+    "moreInfo":"",
+    "bloque":[
+        [
+        "Es posible que, para conseguir un análisis y una comunicación eficaz de los resultados, tengas que examinar muchos datos. Gestionar múltiples fuentes de datos, puede ser abrumador y puede hacerte sentir frustrado. Lo mejor es saber que hay que rastrear y lo que importa. Además, averigua cómo puedes visualizar y analizar los datos para sacar conclusiones e información procesable. En este artículo te mostramos los 10 mejores tipos de gráficos y los consejos para utilizarlos si quieres elaborar informes sobre estos resultados y datos de forma eficiente.",
+        "Por lo general, los tipos de gráficos más populares son los de columnas, los de barras, los circulares, los de líneas, los de áreas, los de dispersión, los de araña (radar), los indicadores y los de comparación. A continuación, se presenta una vista rápida de todos estos tipos de gráficos. El mayor desafío es cómo seleccionar el tipo de gráfico más eficaz para tu tarea.",
+        "Si quieres elegir el tipo de gráfico más adecuado, en general, debes tener en cuenta el número total de variables, los puntos de datos y el periodo de tus datos. Cada tipo de gráfico tiene ventajas específicas. Por ejemplo, los diagramas de dispersión son útiles para indicar las relaciones entre diferentes factores o temas, mientras que los tipos de líneas son adecuados para mostrar tendencias",
+        "Ejemplos de Graficas y Codigo",
+        "<a href='https://www.python-graph-gallery.com/' target='_blank'>Python Graph Gallery</a>",
+        "<a href='https://matplotlib.org/stable/gallery/' target='_blank'>Matplotlib.org</a>"]
+],
+    "orden":["texts"]
+}

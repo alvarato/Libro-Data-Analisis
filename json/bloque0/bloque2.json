@@ -1,0 +1,13 @@
+{
+    "titulo": "Tipos de Analisis de Datos",
+    "subtitulo":"Existen difrentes tipos de analisis de datos en esta seccion los veremos.",
+    "moreInfo":"",
+    "bloque":[
+        [
+            {"name":"pregunta","text":"Que paso? </br> Analisis Descriptivo, ayuda a saber que ocurrio en un periodo de tiempo."},
+            {"name":"nota","text":"Porque paso? </br> Analisis de Diagnostico, toma ideas del analisis descriptivo para profundizar y buscar la causas."},
+            {"name":"lupa","text":"Que pasara? </br> Analisis Predictivo, analisa el historial y tendencias para predecir el futuro."},
+            {"name":"chart","text":"Que podemos hacer?</br> Analisis Prescriptivo, analiza pasadas desciciones y enventos para estimar difrentes probabilidades de resultados."}
+        ]],
+    "orden":["imgText"]
+}

@@ -1,0 +1,15 @@
+{
+    "titulo":"Base de Datos Relacionales",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[{"titulo":"Que es SQL?", "texts":["Es el lenguaje utilizado por las bases de datos Relacionales.","Consulta datos (QUERY)"]},
+    {"titulo":"Que es un Dato?", "texts":["Los datos son activos valiosos para cualquier actividad","Son un conjuntos de letras y numeros almacenados en una DB"]},
+    {"titulo":"Que es una DataBase? (DB)", "texts":["Es el repositorio de data.","Provee las funcionalidades del CRUD","Permite ejecutar querys",
+    "Existen diferntes tipos de Relational database management system (DBMS)"]},
+    {"titulo":"DBMS", "texts":["Es un conjunto de herramientas de software que controla la data.","Controla el Acceso, la organizacion y el almacenamiento."]},
+    {"titulo":"Los 5 comandos Basicos son: ", "texts":["Create Table","Insert","Select","Update","Delete"]},
+    ["Normalmente las bases de datos estan en la nube, de las cuales tenemos acceso en cualquier sitio del mundo con internet<br>Para poder utilizarlas siempre necesitaremos:"],
+    {"titulo":"Service Crendentials", "texts":["Host name: url","Port: 50000","Database Name: BLUDB","User ID: fbn6569874","Password: ********"]}
+],
+    "orden":["listD","listD","listD","listD","listD","blueColor","listD"]
+}
