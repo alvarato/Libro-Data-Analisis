@@ -1,15 +1,23 @@
 {
     "titulo":"Estadistica",
-    "subtitulo":"Exploratory Data Analisis",
-    "moreInfo":"",
-    "bloque":[
-        ["El análisis de datos exploratorio (EDA) lo utilizan los científicos de datos para analizar e investigar conjuntos de datos y resumir sus principales características, empleando a menudo métodos de visualización de datos. Ayuda a determinar la mejor manera de manipular los orígenes de datos para obtener las respuestas que necesita, lo que permite a los científicos de datos descubrir patrones, detectar anomalías, probar una hipótesis o comprobar supuestos."],
-        {"titulo":"","texts":["Resumen de las principales caracteristicas de la data",
-        "Obtener un mejor entendimiento de la data","Descubrir relaciones entre variables","Saber las importancias de las variables"]},
-        ["Pregunta?","Que caracteristicas tienen mayor impacto en (ej: en el precio de un automovil)?"],
-        {"titulo":"","texts":["Estadistica descriptiva","Agrupacion","ANOVA","Correlacion",
-        "Estos temas son mas complejos y competen mas a un Data Scient"]}
+    "subtitulo":"La estadística es una rama de las matemáticas que te permite recopilar, organizar y analizar datos según la necesidad que tengas, por ejemplo: obtener un resultado, comparar información, tomar mejores decisiones, entre muchas cosas más.",
+    "moreInfo":"La estadistica se utiliza en todas las industrias para la toma de desciciones.",
+    "bloque":[["El analisis estadistico es la aplicacion de metodos estadisticos para una muestra de datos para desarrollar una comprension de los mismos.",
+    "<g class='colorBlue'>Muestra: es un subconjunto de datos de un individuo o poblacion.</g>","<g class='colorBlue'>Poblacion: porcion representativa</g>",
+    "Metodos Estadisticos que ayudan a asegurar la interpretacion correcta de la Datay aparente relacion significativa."
+],
+        ["<cr style='font-size:30px;'>Términos clave</cr>"],
+        {"titulo":"","texts":["Media <br>Suma todos los valores dividida por la cantidad de valores 'Promedio'.<br>X̅ = sum(total)/scores (Media Aritmetica).",
+        "Media Ponderada<br>Suma de todos los valores multiplicados por cada ponderación y dividida por la suma de las ponderaciones.",
+        "Mediana µ<br>El numero que por valor esta en el centro, si es par es la suma de los dos numeros centrales dividido en 2.<br>Me = El valor central if scores = 25u Me = 13u",
+        "Mediana Ponderada<br>Valor tal que la mitad de la suma de las ponderaciones se encuentra por encima y la otra mitad por debajo de los datos ordenados.",
+        "Atípico<br>Valor de un dato que es muy diferente de la mayoría de los valores de datos 'Valor Extremo'.",
+        "Robusto<br>Insensible a valores extremos.",
+        "Media recortada<br>El promedio de todos los valores después de eliminar un número fijo de valores 'Media truncada'.",
+        "Moda Mo<br>El valor con mayor frecuencia."]},
+        ["Los valores Atípicos podrian sesgar los resultados. Un valor atípico es cualquier valor que está muy lejos de los otros valores del conjunto. Los valores atípicos pueden ser errores al ingresar los datos o no, pero afectan a la norma del conjunto.",
+        ""]
 
 ],
-    "orden":["blueColor","listD","texts","listD"]
+    "orden":["texts","blueColor","listD","texts"]
 }

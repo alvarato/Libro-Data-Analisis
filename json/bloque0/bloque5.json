@@ -1,0 +1,50 @@
+{
+    "titulo": "Ecosistema de los Datos",
+    "subtitulo":"Existen difrentes tipos de formatos para los Datos",
+    "moreInfo":"",
+    "bloque":[
+        [
+            {"name":"sql","text":"Estructurados - Bases de Datos o spreandsheet (EXEL)."},
+            {"name":"nota","text":"Semi-Estructurados - Bases de Datos No Relacionales NO-SQL."},
+            {"name":"youtube","text":"No-Estructurados - Fotos,Videos,Texto,etc."}
+        ],
+        [
+            "<cr><g style='font-size:35px;'>Que es data?</g></br> Los datos son informacion no organizada, que se procesa para convertirla en informacion significativa.</cr>",
+            "Se pueden almacenar en:"
+        ],
+        {   "titulo":"Estructurado",
+                "texts":["SQL DATABASE","Online Transacction Processing OTP","Spreadsheets","OnlineForms","Semspres GPS y RFID",
+                    "Internet y web server logs"]
+            },{
+                "titulo":"Semi-Estructurados",
+                "texts":["E-mails","XML,JSON","Binary Executables","TPC/IP packages","Zipped files","Intregration de Data"]
+            },{
+                "titulo":"Destructurados",
+                "texts":["Paginas Web","Redes Sociales","Imagenes","Videos y Audios","Documentos pdf, etc"]
+            },
+            ["<cr><g style='font-size:35px;'>Identificar Data para el Analisis</g></cr>"],
+            {
+                "titulo":"Paso 1, Determina la informacion que quieres recolectar.",
+                "texts":["Especificar la informacion necesaria","Posibles recursos de donde obtenerla"]
+            },{
+                "titulo":"Paso 2, Definir el plan de colecta",
+                "texts":[]
+            },{
+                "titulo":"Paso 3, Definir el metodo de recoleccion dependen de:",
+                "texts":["Recursos de data","Tipo de data","Tiempo","Volumen de datos"]
+            },{
+                "titulo":"Los datos recopilados y sus metodos de captura deben:",
+                "texts":["Tener Calidad","Resguardar Seguirad","Respetar la Privacidad"]
+            },{
+                "titulo":"Calidad de Datos",
+                "texts":["Libre de errores","Preciso","Completos","Reelevantes","Accesibles"]
+            },{
+                "titulo":"Gobierno de datos",
+                "texts":["Seguridad","Regulaciones","Cumpliemiento"]
+            },{
+                "titulo":"Privacidad de Datos",
+                "texts":["Confidencial","Licencia de uso","Cumplimiento de las regulaciones"]
+            }
+        
+    ],"orden":["imgText","texts","listD","listD","listD","texts","listD","listD","listD","listD","listD","listD","listD"]
+}

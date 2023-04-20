@@ -1,0 +1,32 @@
+{
+    "titulo":"Estadistica Inferencial",
+    "subtitulo":"La variabilidad tambien conocida como dispersión mide el grado de agrupación o dispersión de los valores de los datos. En el corazón de la estadística se encuentra la variabilidad: hay que medirla, reducirla, distinguir la variabilidad aleatoria de la real, identificar las diversas fuentes de variabilidad real y tomar decisiones teniéndola en cuenta.",
+    "moreInfo":"",
+    "bloque":[
+        [
+            {"name":"chart","text":"Testear Hypotesis."},
+            {"name":"nota","text":"Intervalo de Confianza."},
+            {"name":"python","text":"Analisis de Regrecion."}
+        ],
+        {
+            "titulo":"Testeo de Hipotesis.",
+            "texts":["Es una supocision sobre un valor Estadistico.",
+                "Las Hipotesis estadisticas son afirmaciones de un dato sobre las caracteristicas de la poblacion."]
+        },{
+            "titulo":"Intervalos de Confianza.",
+            "texts":["Un intervalo de confianza nos va a permitir calcular dos valores alrededor de una media muestral (uno superior y otro inferior). Estos valores van a acotar un rango dentro del cual, con una determinada probabilidad, se va a localizar el parámetro poblacional.",
+                "Intervalo de confianza = media +- margen de error",
+                "<g class='colorBlue'>Tamaño de la muestra seleccionada:</g> Dependiendo de la cantidad de datos que se hayan utilizado para calcular el valor muestral, este se acercará más o menos al verdadero parámetro poblacional.",
+                "<g class='colorBlue'>Nivel de confianza:</g> Nos va a informar en qué porcentaje de casos nuestra estimación acierta. Los niveles habituales son el 95% y el 99%.",
+                "<g class='colorBlue'>Margen de error de nuestra estimación:</g> Este se denomina como alfa y nos informa de la probabilidad que existe de que el valor poblacional esté fuera de nuestro intervalo.",
+                "<g class='colorBlue'>Margen de error de nuestra estimación:</g> Este se denomina como alfa y nos informa de la probabilidad que existe de que el valor poblacional esté fuera de nuestro intervalo.",
+                "<a href='https://economipedia.com/definiciones/intervalo-de-confianza.html?nab=1&utm_referrer=https%3A%2F%2Fwww.google.com%2F' target='_blank'>Mas Info</a>"
+                    ]
+        },{
+            "titulo":"Analisis de Regrecion",
+            "texts":["En estadística, el análisis de la regresión es un proceso estadístico para entender cómo una variable depende de otra variable."]
+        }
+
+],
+    "orden":["imgText","listD","listD","listD"]
+}
