@@ -5,7 +5,8 @@
         {"titulo":"Bases de Datos","subtitlos":["DDL vs DML","Staments","Operadores","Funciones y Fechas","Subqueries"]},
         {"titulo":"Estadistica","subtitlos":["EDA","Estadistica Descriptiva","Correlacion","Varianza","Estadistica Inferencial"]},
         {"titulo":"Python","subtitlos":["Pandas"]},
-        {"titulo":"Graficos","subtitlos":["Bar","Pie","Area","Regresión","Spider","Box Plot","DashBoard"]}
+        {"titulo":"Graficos","subtitlos":["Bar","Pie","Area","Dispersión","Spider","Box Plot","DashBoard","Histogram"]},
+        {"titulo":"Extras","subtitlos":["Reportes"]}
     ]
     
 }
