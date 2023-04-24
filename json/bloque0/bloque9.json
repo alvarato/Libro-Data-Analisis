@@ -1,0 +1,43 @@
+{
+    "titulo": "Data Visualización",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        [
+            {"name":"nota","text":"Entender el Problema"},
+            {"name":"chart","text":"Comunicar Resultados"}
+        ],
+        {
+                "titulo":"Realizar una buena comunicacion consta de 3 factores",
+                "texts":["Data","Visualizacion","Una buena historia"]
+            },{
+                "titulo":"Para realizar una buena historia tenemos que realizar las siguientes Preguntas.",
+                "texts":["<g class='colorBlue'>Quien es mi audiencia?</g><br>El publico en terminos generales va a ser diverso en funcion de los roles operativos o estrategicos en la organizacion y si les afecta el problema y otros factores similares."
+                    ,"<g class='colorBlue'>Que es importante para ellos?</g><br>La presentacion debe adaptarse a la necesidad y capacidad de la audiencia, decidiras que informacion es esencial y en que medida para permitir una mejor compresion de tus conclusiones y descubrimientos.<br>Es tentador mostrar todos los descubrimientos pero hay que enteder que es mejor para el public y el objetivo."
+                    ,"<g class='colorBlue'>Que les ayudara a entenderme?</g><br>Empieza tu presentacion demostrando a la audiencia que entiendes el problema, es facil caer en la suposicion de que todos sabemos para que estamos aqui, pero demotrar que entendemos cual es el problema y cual es el objetivo es un gran comienzo de la presentacion.<br>Hablar las mismas expresiones que tiene el publico es un factor importante.<br>Un buen diseño de los pasos, comunicacion y estructura de la presentacion para un mejor impacto."
+                    ,"Comparte tus fuentes de datos, hipotesis y validaciones.","Establece credibilidad de tus conclusiones sobre la marcha","Organiza la informacion en categorias logicas basadas en la informacion que tienes.",
+                    "Identificar los mejores formatos para presentar la data y el resumen de la misma."
+            ]}
+        ,
+        [
+            {"name":"tarea","text":"El poder de la visualizacion para contar historias atravez de graficos y descripcion de figuras es dar vida a los datos.<br>Graficos-Barras-Diagramas."}
+        ],
+        ["<cr style='font-size:35px;'>Introduccion a la Visualizacion de Datos</cr>",
+        "La visualizacion de datos es la disciplina de la comunicacion de informacion de forma que se utiliza elementos visuales como graficos, barras y mapas para mostrar informacion y facilitar su comprencion, interpretacion y retencion.",
+        "Podemos utilizar la visualizacion para encontrar patrones, relaciones, tendecias y resumenes que simplemente mirando los datos serian casi imposibles de ver."
+        ],
+        {
+            "titulo":"<g class='colorBlue'>Elegir los elementos de Visualizacion adecuados.</g>",
+            "texts":["Cual es la relacion que estoy intentaod demostrar?","Quiero ver el comportamiento de un valor o varios en un periodo o locacion?",
+            "Necesito que el publico vea la correlacion entre dos variables?","Quiero Mostrar anomalias en la Informacion?",
+            "<cb>La real cuestion es ¿Que estoy tratando de Responder?</cb>"]
+        },{
+            "titulo":"<g class='colorBlue'>Tipos de Graficos.</g>",
+            "texts":["Los Bar Charts son una gran forma de comparar un conjunto de datos o una parte de un todo.",
+            "Colum Chart comparan cantidades una al lado de la otra, son muy efectivas para mostrar datos a medida que pasa el tiempo.",
+            "Pie chart muestran como una entidad esta divida en subpartes y la proporciones de la misma.",
+            "Line chart es exelente para mostrar los cambios de una variable en relacion a otra continua."
+            ,"<cb>Dashboards</cb><br>es una herramienta de gestión de la información que monitoriza, analiza y muestra de manera visual los indicadores clave de desempeño (KPI), métricas y datos fundamentales para hacer un seguimiento del estado de una empresa, un departamento, una campaña o un proceso específico.<br>Podemos pensar en el dashboard como una especie de 'resumen' que recopila datos de diferentes fuentes en un solo sitio y los presenta de manera digerible para que lo más importante salte a la vista."]
+        }
+    ],"orden":["imgText","listD","listD","imgText","texts","listD","listD"]
+}

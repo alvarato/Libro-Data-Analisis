@@ -1,43 +1,57 @@
 {
-    "titulo": "Data Visualización",
-    "subtitulo":"",
-    "moreInfo":"",
+    "titulo": "Data Mining",
+    "subtitulo":"Es el proceso de extracion de informacion de la data.",
+    "moreInfo":"Es un proceso interdisiplinario que implica el uso de tecnologias de reconocimiento de patrones, analisis estadistico y tecnicas matematicas.<br>Su objetivo es identificar correlaciones entre los datos, encontrar patrones, entender tendecias y predecir probabilidades.",
     "bloque":[
         [
-            {"name":"nota","text":"Entender el Problema"},
-            {"name":"chart","text":"Comunicar Resultados"}
+            {"name":"python","text":"PATTERNS <br> (Pattern recognition) Es el reconocimiento de patrones, el descubrimiento de la regularidad o normalidades en la data. <br>Analisamos a los usuarios -> analisamos su comportamiento -> obtenemos patrones y comportamientos.<br> ej: Horas mas populares, tipos de usuarios, etc"},
+            {"name":"chart","text":"TRENDS <br> Tendencias lo que predomina en un set de data del cambio a medida que pasa el tiempo.<br>Ej: [2005-51c],[2010-52c],[2015-53c] cada 5 años aumenta 1c"}
         ],
         {
-                "titulo":"Realizar una buena comunicacion consta de 3 factores",
-                "texts":["Data","Visualizacion","Una buena historia"]
-            },{
-                "titulo":"Para realizar una buena historia tenemos que realizar las siguientes Preguntas.",
-                "texts":["<g class='colorBlue'>Quien es mi audiencia?</g><br>El publico en terminos generales va a ser diverso en funcion de los roles operativos o estrategicos en la organizacion y si les afecta el problema y otros factores similares."
-                    ,"<g class='colorBlue'>Que es importante para ellos?</g><br>La presentacion debe adaptarse a la necesidad y capacidad de la audiencia, decidiras que informacion es esencial y en que medida para permitir una mejor compresion de tus conclusiones y descubrimientos.<br>Es tentador mostrar todos los descubrimientos pero hay que enteder que es mejor para el public y el objetivo."
-                    ,"<g class='colorBlue'>Que les ayudara a entenderme?</g><br>Empieza tu presentacion demostrando a la audiencia que entiendes el problema, es facil caer en la suposicion de que todos sabemos para que estamos aqui, pero demotrar que entendemos cual es el problema y cual es el objetivo es un gran comienzo de la presentacion.<br>Hablar las mismas expresiones que tiene el publico es un factor importante.<br>Un buen diseño de los pasos, comunicacion y estructura de la presentacion para un mejor impacto."
-                    ,"Comparte tus fuentes de datos, hipotesis y validaciones.","Establece credibilidad de tus conclusiones sobre la marcha","Organiza la informacion en categorias logicas basadas en la informacion que tienes.",
-                    "Identificar los mejores formatos para presentar la data y el resumen de la misma."
-            ]}
-        ,
-        [
-            {"name":"tarea","text":"El poder de la visualizacion para contar historias atravez de graficos y descripcion de figuras es dar vida a los datos.<br>Graficos-Barras-Diagramas."}
-        ],
-        ["<cr style='font-size:35px;'>Introduccion a la Visualizacion de Datos</cr>",
-        "La visualizacion de datos es la disciplina de la comunicacion de informacion de forma que se utiliza elementos visuales como graficos, barras y mapas para mostrar informacion y facilitar su comprencion, interpretacion y retencion.",
-        "Podemos utilizar la visualizacion para encontrar patrones, relaciones, tendecias y resumenes que simplemente mirando los datos serian casi imposibles de ver."
-        ],
-        {
-            "titulo":"<g class='colorBlue'>Elegir los elementos de Visualizacion adecuados.</g>",
-            "texts":["Cual es la relacion que estoy intentaod demostrar?","Quiero ver el comportamiento de un valor o varios en un periodo o locacion?",
-            "Necesito que el publico vea la correlacion entre dos variables?","Quiero Mostrar anomalias en la Informacion?",
-            "<cb>La real cuestion es ¿Que estoy tratando de Responder?</cb>"]
-        },{
-            "titulo":"<g class='colorBlue'>Tipos de Graficos.</g>",
-            "texts":["Los Bar Charts son una gran forma de comparar un conjunto de datos o una parte de un todo.",
-            "Colum Chart comparan cantidades una al lado de la otra, son muy efectivas para mostrar datos a medida que pasa el tiempo.",
-            "Pie chart muestran como una entidad esta divida en subpartes y la proporciones de la misma.",
-            "Line chart es exelente para mostrar los cambios de una variable en relacion a otra continua."
-            ,"<cb>Dashboards</cb><br>es una herramienta de gestión de la información que monitoriza, analiza y muestra de manera visual los indicadores clave de desempeño (KPI), métricas y datos fundamentales para hacer un seguimiento del estado de una empresa, un departamento, una campaña o un proceso específico.<br>Podemos pensar en el dashboard como una especie de 'resumen' que recopila datos de diferentes fuentes en un solo sitio y los presenta de manera digerible para que lo más importante salte a la vista."]
-        }
-    ],"orden":["imgText","listD","listD","imgText","texts","listD","listD"]
+            "titulo":"Aplicaciones del data Mining",
+            "texts":["Elaboracion de perfiles del comportamiento, necesidades e ingresos disponibles para ofrecer campañas adecuadas.",
+                "Rastrear las transacciones de los clientes en busqueda de comportaminetos inusuales y marcar las transacciones fraudulentas mediante modelos.",
+                "El uso de modelos estadisticos para predecir distintos trastornos en la salud y dar prioridad en tratamientos.",
+                "El acceso a datos de rendimiento de estudiantes para predecir los niveles, para mejorar el desarrollo y rendimiento de los mismos.",
+                "Ayudar en investigacione y descubrir zonas donde la probabilidad de que suceda un delito sea mayor.",
+                "Mejora de logistica."
+            ]
+        },
+        {"titulo":"Tecnicas del Data Mining",
+                "texts":["<cb>Descriptiva</cb>","<cb>Diagnostico</cb>","<cb>Preditiva</cb>","<cb>Modelo Predictivo</cb>"]
+            },
+            [
+                {"name":"lupa","text":"<g class='colorBlue'>Agrupacion:</g> es similar a clasifircar pero implica <a target='_blank' href='https://www.tibco.com/es/reference-center/what-is-cluster-analysis'>clusteres</a> para tratarse los grupos."},
+                {"name":"nota","text":"<g class='colorBlue'>Clasificacion:</g> Clasfica los atributos en categorias objetivo<br>Ej: Clasificar los clientes en nivel de ingresos [bajos,medios,altos]"},
+                {"name":"pregunta","text":"<g class='colorBlue'>Anomalias:</g> Encontrar patrones y detectar anomalias."},
+                {"name":"regla","text":"<g class='colorBlue'>Reglas de asociación:</g> se utilizan para descubrir hechos que ocurren en común dentro de un determinado conjunto de datos."},
+                {"name":"python","text":"<g class='colorBlue'>Secuencias de Patrones:</g> Trazar series de eventos que suceden en una secuencia.<br>(Es un tema muy complejo, Buscar mas info en el curso no explica nada)."},
+                {"name":"sql","text":"<g class='colorBlue'>Afinidad de Gupo:</g> Descubrir concurrencias y relaciones."},
+                {"name":"arbol","text":"<g class='colorBlue'>Descision Trees</g> Crear clasificaciones de modelos en formato de estructura de arbol con multiples ramas, donde cada rama representa probables ocurrencias."},
+                {"name":"regresion","text":"<g class='colorBlue'>Regression</g> Identifica la relacion entre dos variables, cuales podria tener relacion."},
+                {"name":"tarea","text":"<g class='colorBlue'>En conclusion: la mineria de datos ayuda a separar el ruido de la informacion real y ayuda a los negocios a enfocarse sus esfuerzo solamente en lo que es relevante.</g>"}
+            ],
+            ["<cr style='font-size:35px;'>Herramientas del Data Mining</cr>"],
+            {
+                "titulo":"",
+                "texts":["Spreadsheests","R-language","Python","IBM SPSS Statistics","IBM Watson Studio","SAS"]},{
+                "titulo":"Spreadsheests",
+                "texts":["son Exel o Google Spreadsheets son muy comunes en el data mining para tareas basicas de este.","Hosting data","Facilidad para exportar a otros tipos de datos","Facil acceso y Facil visibilidad.",
+                "Crear tablas pivot para mostrar casos especificos de data.","Dibujos comparativos entre set de data."]
+            },
+            {
+                "titulo":"R-language",
+                "texts":["Es uno de los lenguajes mas populares para crear modelos estadisticos de datos, computacion estadistica y mineria de datos.","Regression","Classification","Data Clustering (agrupamiento)","Association Rule Mining","Text Mining","Outlier Detection","Social Network Analysis"]
+            },
+            {
+                "titulo":"Python",
+                "texts":["Es un lenguaje de programacion de multiparadigma muy versatil y facil de usar, con muchas librerias.","Pandas: libreria open-soure para trabajar con estructuras de datos.",
+                "Pandas te permite descargar data en cualquier formato, organizarla, ordenarla y manipularla de forma sencilla.",
+                "NumPy: herramienta para matematica compuacional y data prepare.",
+                "Jupyter Notebooks: es una herramienta fundamental para el Data Scient y el Data Analysis.",
+                "Text Mining","Outlier Detection","Social Network Analysis"]
+            }
+
+    ],
+    "orden":["imgText","listD","listD","imgText","texts","listD","listD","listD","listD"]
 }

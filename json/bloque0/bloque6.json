@@ -1,36 +1,50 @@
 {
-    "titulo": "",
-    "subtitulo":"",
-    "moreInfo":"<cr><g style='font-size:35px;'>Data Sources</g></cr>",
+    "titulo": "Ecosistema de los Datos",
+    "subtitulo":"Existen difrentes tipos de formatos para los Datos",
+    "moreInfo":"",
     "bloque":[
-        ["Primary Data: es la informacion obtenida por uno mismo de la fuente. EJ: RRHH.",
-        "Secondary Data: informacion extraida de recursos existentes. EJ: bbdd, articulos, etc.",
-        "Third-Party Data: es el conjunto de datos obtenido de diversa fuentes creando un nuevo conjunto apartir de ello.",
-        "<cr><g style='font-size:35px;'>Data Wraling</g></cr>",
-        "Es un proceso iterativo que implica exploracion, transformacion,validacion y hacer valida la informacion para un analisis creible",
-        "Consisnte enprocesar los DATOS en Bruto, esta formado por 4 etapas."],
-        {
-            "titulo":"Descubrir",
-            "texts":["Examinacion y Entendimiento de la data con respecto al caso de uso.","Crear un plan para limpiar, estructurar, organizar y mapear la DATA."]
-        },{
-            "titulo":"Transformacio",
-            "texts":["Estructurar la DATA.","Normalizar-Desnormalizar.","Limpiar.","Enriquecer."]
-        },{
-            "titulo":"Validar",
-            "texts":["Revisar la calidad de la DATA al final del proceso."]
-        },{
-            "titulo":"Publicar",
-            "texts":["Publicar los resultados."]
-        },
-        ["<cr><g style='font-size:35px;'>Clean DATA</g></cr>",
-        "Pasos importantes: Inspecionar, Limpiar y Verificar el Resultado",
-        "<cb>Missing Data, Data inconsistente y Data incorrecta llevana falsa conclusiones y a ineficientes decisiones</cb>"],
         [
-            {"name":"lupa","text":"Hay que descubrir anomalias y datos de mala calidad. </br> Visualizar los datos puede ayudar a detectar valores atipico. </br> La tecnica de limpieza que apliquemos al conjunto depende del caso de uso."},
-            {"name":"pregunta","text":"Problemas comunes. </br> Missing Values - SyntaxError - Data duplicada </br> Data Irrelevante - Type of Data - Valores atipicos </br> Estandarizacion"},
-            {"name":"vigilancia","text":"Inspeccionamos si los cambios realizados son efecivos para el Analisis </br> Todas las operaciones de limpieza y manipulacion deben estar documentadas."}
-        ]
+            {"name":"sql","text":"Estructurados - Bases de Datos o spreandsheet (EXEL)."},
+            {"name":"nota","text":"Semi-Estructurados - Bases de Datos No Relacionales NO-SQL."},
+            {"name":"youtube","text":"No-Estructurados - Fotos,Videos,Texto,etc."}
+        ],
+        [
+            "<cr><g style='font-size:35px;'>Que es data?</g></br> Los datos son informacion no organizada, que se procesa para convertirla en informacion significativa.</cr>",
+            "Se pueden almacenar en:"
+        ],
+        {   "titulo":"Estructurado",
+                "texts":["SQL DATABASE","Online Transacction Processing OTP","Spreadsheets","OnlineForms","Semspres GPS y RFID",
+                    "Internet y web server logs"]
+            },{
+                "titulo":"Semi-Estructurados",
+                "texts":["E-mails","XML,JSON","Binary Executables","TPC/IP packages","Zipped files","Intregration de Data"]
+            },{
+                "titulo":"Destructurados",
+                "texts":["Paginas Web","Redes Sociales","Imagenes","Videos y Audios","Documentos pdf, etc"]
+            },
+            ["<cr><g style='font-size:35px;'>Identificar Data para el Analisis</g></cr>"],
+            {
+                "titulo":"Paso 1, Determina la informacion que quieres recolectar.",
+                "texts":["Especificar la informacion necesaria","Posibles recursos de donde obtenerla"]
+            },{
+                "titulo":"Paso 2, Definir el plan de colecta",
+                "texts":[]
+            },{
+                "titulo":"Paso 3, Definir el metodo de recoleccion dependen de:",
+                "texts":["Recursos de data","Tipo de data","Tiempo","Volumen de datos"]
+            },{
+                "titulo":"Los datos recopilados y sus metodos de captura deben:",
+                "texts":["Tener Calidad","Resguardar Seguirad","Respetar la Privacidad"]
+            },{
+                "titulo":"Calidad de Datos",
+                "texts":["Libre de errores","Preciso","Completos","Reelevantes","Accesibles"]
+            },{
+                "titulo":"Gobierno de datos",
+                "texts":["Seguridad","Regulaciones","Cumpliemiento"]
+            },{
+                "titulo":"Privacidad de Datos",
+                "texts":["Confidencial","Licencia de uso","Cumplimiento de las regulaciones"]
+            }
         
-    ],
-    "orden":["texts","listD","listD","listD","listD","texts","imgText"]
+    ],"orden":["imgText","texts","listD","listD","listD","texts","listD","listD","listD","listD","listD","listD","listD"]
 }

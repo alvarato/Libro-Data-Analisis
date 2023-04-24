@@ -1,32 +1,18 @@
 {
-    "titulo": "Skills del Analista",
-    "subtitulo":"Existen 3 Tipos </br> Tecnicas, Funcionales y Soft Skills",
+    "titulo": "Pasos del Analisis de Datos",
+    "subtitulo":"Cómo el proceso de análisis de datos guía este programa?",
     "moreInfo":"",
     "bloque":[
-        {
-                "titulo":"Habilidades Tecnicas",
-                "texts":["Muy Buen conocimiento de spreadsheet <gc>Exel o Google sheets</gc>",
-                "Dominio de herramientas de analisis estadistico, herrameintas de visualizacion y software <gc>IBM congos, PowerBY, ...</gc>",
-            "Dominio de lenguajes de Programacion. <cg>R, Phyton, C++, Java y Matlab</gc>",
-            "Conocimientos de SQL y NO-SQL","Poder extraer data de repostorios",
-            "Familiarizado con Procesos de BigDATA <cg>Herramientas como Hadoop Hive, Spark y Kafka.</cg>"]
-            },{
-                "titulo":"Habilidades Funcionales",
-                "texts":["Competencias en Estadisticas <cg>Analisis de datos, validacion de analisis, identificar fallas y errores logicos</cg>",
-                "Skills analiticas <cg>Investigar e interpretar data, teorias, hacer reportes</cg>",
-                "Solucionar Problemas <cg>Crear posibles soluciones</cg>",
-                "Skills de Sondeo <cg>Identificar y definir problemas y decidir la ruta</cg>",
-                "Visualizacion de datos <cg>Crear, limpiar y mostrar visualizaiones de los analisis</cg>",
-                "Project Management Skills <cg>Manejar procesos, personas, depdendecias y horarios.</cg>"]
-            },
-        {
-                "titulo":"Soft Skills",
-                "texts":["Habilidades Trabajo en equipo","Comunicacion Efectiva para reportar tus Descubrimientos","Crear historias convincentes"]
-            },{
-                "titulo":"Curiosidad",
-                "text":["Buscar nuevas preguntas y retos para mejorar y probrar tus hipostesis","Intuicion"]
-            }
-        
+        [
+            {"name":"pregunta","text":"Preguntar</br>  Hacer preguntas efectivas<br> Definir el problema <br>Utilizar el pensamiento estructurado <br>Comunicarse con los demás "},
+            {"name":"sql","text":"Preparar </br>Entender cómo se generan y recogen los datos <br>Identificar y usar diferentes formatos, tipos y estructuras de datos <br> Asegurarse de que los datos son imparciales y creíbles <br>Organizar y proteger los datos "},
+            {"name":"python","text":"Procesar <br>Crear y transformar datos<br>Mantener la integridad de los datos <br>Datos de prueba <br> Datos limpios <br>Verificar e informar sobre los resultados de la limpieza"},
+            {"name":"lupa","text":"Analizar <br>Usar herramientas para formatear y transformar datos <br>Ordenar y filtrar datos <br> Identificar patrones y sacar conclusiones<br>Hacer predicciones y recomendaciones<br>Tomar decisiones basadas en datos"},
+            {"name":"torta","text":"Compartir <br> Entender la visualización <br> Crear imágenes efectivas <br>Dar vida a los datos<br>Usar la narración de datos <br>Comunicar para ayudar a otras 6 personas a entender los resultados "},
+            {"name":"nota","text":"Actuar <br> Aplicar tus conocimientos <br> Resolver problemas <br>Tomar decisiones <br>Crear algo nuevo "}
+        ],
+        ["<cb>En Resumen</cb>"],
+        {"titulo":"","texts":["Preguntar","Preparar","Procesar","Analizar","Compartir","Actuar"]}
     ],
-    "orden":["listD","listD","listD","listD"]
+        "orden":["imgText","texts","listO"]
 }

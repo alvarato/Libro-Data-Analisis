@@ -7,14 +7,11 @@
 .indice{
     width: 15%;
     border: solid;
-    max-height: max-content;
     padding: 5px;
 }
 .data{
     width: 80%;
     border: solid;
-    min-height: 300px;
-    max-height: max-content;
     padding: 15px;
 }
 h1{

@@ -1,50 +1,32 @@
 {
-    "titulo": "Ecosistema de los Datos",
-    "subtitulo":"Existen difrentes tipos de formatos para los Datos",
+    "titulo": "Skills del Analista",
+    "subtitulo":"Existen 3 Tipos </br> Tecnicas, Funcionales y Soft Skills",
     "moreInfo":"",
     "bloque":[
-        [
-            {"name":"sql","text":"Estructurados - Bases de Datos o spreandsheet (EXEL)."},
-            {"name":"nota","text":"Semi-Estructurados - Bases de Datos No Relacionales NO-SQL."},
-            {"name":"youtube","text":"No-Estructurados - Fotos,Videos,Texto,etc."}
-        ],
-        [
-            "<cr><g style='font-size:35px;'>Que es data?</g></br> Los datos son informacion no organizada, que se procesa para convertirla en informacion significativa.</cr>",
-            "Se pueden almacenar en:"
-        ],
-        {   "titulo":"Estructurado",
-                "texts":["SQL DATABASE","Online Transacction Processing OTP","Spreadsheets","OnlineForms","Semspres GPS y RFID",
-                    "Internet y web server logs"]
+        {
+                "titulo":"Habilidades Tecnicas",
+                "texts":["Muy Buen conocimiento de spreadsheet <gc>Exel o Google sheets</gc>",
+                "Dominio de herramientas de analisis estadistico, herrameintas de visualizacion y software <gc>IBM congos, PowerBY, ...</gc>",
+            "Dominio de lenguajes de Programacion. <cg>R, Phyton, C++, Java y Matlab</gc>",
+            "Conocimientos de SQL y NO-SQL","Poder extraer data de repostorios",
+            "Familiarizado con Procesos de BigDATA <cg>Herramientas como Hadoop Hive, Spark y Kafka.</cg>"]
             },{
-                "titulo":"Semi-Estructurados",
-                "texts":["E-mails","XML,JSON","Binary Executables","TPC/IP packages","Zipped files","Intregration de Data"]
-            },{
-                "titulo":"Destructurados",
-                "texts":["Paginas Web","Redes Sociales","Imagenes","Videos y Audios","Documentos pdf, etc"]
+                "titulo":"Habilidades Funcionales",
+                "texts":["Competencias en Estadisticas <cg>Analisis de datos, validacion de analisis, identificar fallas y errores logicos</cg>",
+                "Skills analiticas <cg>Investigar e interpretar data, teorias, hacer reportes</cg>",
+                "Solucionar Problemas <cg>Crear posibles soluciones</cg>",
+                "Skills de Sondeo <cg>Identificar y definir problemas y decidir la ruta</cg>",
+                "Visualizacion de datos <cg>Crear, limpiar y mostrar visualizaiones de los analisis</cg>",
+                "Project Management Skills <cg>Manejar procesos, personas, depdendecias y horarios.</cg>"]
             },
-            ["<cr><g style='font-size:35px;'>Identificar Data para el Analisis</g></cr>"],
-            {
-                "titulo":"Paso 1, Determina la informacion que quieres recolectar.",
-                "texts":["Especificar la informacion necesaria","Posibles recursos de donde obtenerla"]
+        {
+                "titulo":"Soft Skills",
+                "texts":["Habilidades Trabajo en equipo","Comunicacion Efectiva para reportar tus Descubrimientos","Crear historias convincentes"]
             },{
-                "titulo":"Paso 2, Definir el plan de colecta",
-                "texts":[]
-            },{
-                "titulo":"Paso 3, Definir el metodo de recoleccion dependen de:",
-                "texts":["Recursos de data","Tipo de data","Tiempo","Volumen de datos"]
-            },{
-                "titulo":"Los datos recopilados y sus metodos de captura deben:",
-                "texts":["Tener Calidad","Resguardar Seguirad","Respetar la Privacidad"]
-            },{
-                "titulo":"Calidad de Datos",
-                "texts":["Libre de errores","Preciso","Completos","Reelevantes","Accesibles"]
-            },{
-                "titulo":"Gobierno de datos",
-                "texts":["Seguridad","Regulaciones","Cumpliemiento"]
-            },{
-                "titulo":"Privacidad de Datos",
-                "texts":["Confidencial","Licencia de uso","Cumplimiento de las regulaciones"]
+                "titulo":"Curiosidad",
+                "text":["Buscar nuevas preguntas y retos para mejorar y probrar tus hipostesis","Intuicion"]
             }
         
-    ],"orden":["imgText","texts","listD","listD","listD","texts","listD","listD","listD","listD","listD","listD","listD"]
+    ],
+    "orden":["listD","listD","listD","listD"]
 }

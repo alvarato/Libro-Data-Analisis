@@ -1,57 +1,36 @@
 {
-    "titulo": "Data Mining",
-    "subtitulo":"Es el proceso de extracion de informacion de la data.",
-    "moreInfo":"Es un proceso interdisiplinario que implica el uso de tecnologias de reconocimiento de patrones, analisis estadistico y tecnicas matematicas.<br>Su objetivo es identificar correlaciones entre los datos, encontrar patrones, entender tendecias y predecir probabilidades.",
+    "titulo": "",
+    "subtitulo":"",
+    "moreInfo":"<cr><g style='font-size:35px;'>Data Sources</g></cr>",
     "bloque":[
-        [
-            {"name":"python","text":"PATTERNS <br> (Pattern recognition) Es el reconocimiento de patrones, el descubrimiento de la regularidad o normalidades en la data. <br>Analisamos a los usuarios -> analisamos su comportamiento -> obtenemos patrones y comportamientos.<br> ej: Horas mas populares, tipos de usuarios, etc"},
-            {"name":"chart","text":"TRENDS <br> Tendencias lo que predomina en un set de data del cambio a medida que pasa el tiempo.<br>Ej: [2005-51c],[2010-52c],[2015-53c] cada 5 años aumenta 1c"}
-        ],
+        ["Primary Data: es la informacion obtenida por uno mismo de la fuente. EJ: RRHH.",
+        "Secondary Data: informacion extraida de recursos existentes. EJ: bbdd, articulos, etc.",
+        "Third-Party Data: es el conjunto de datos obtenido de diversa fuentes creando un nuevo conjunto apartir de ello.",
+        "<cr><g style='font-size:35px;'>Data Wraling</g></cr>",
+        "Es un proceso iterativo que implica exploracion, transformacion,validacion y hacer valida la informacion para un analisis creible",
+        "Consisnte enprocesar los DATOS en Bruto, esta formado por 4 etapas."],
         {
-            "titulo":"Aplicaciones del data Mining",
-            "texts":["Elaboracion de perfiles del comportamiento, necesidades e ingresos disponibles para ofrecer campañas adecuadas.",
-                "Rastrear las transacciones de los clientes en busqueda de comportaminetos inusuales y marcar las transacciones fraudulentas mediante modelos.",
-                "El uso de modelos estadisticos para predecir distintos trastornos en la salud y dar prioridad en tratamientos.",
-                "El acceso a datos de rendimiento de estudiantes para predecir los niveles, para mejorar el desarrollo y rendimiento de los mismos.",
-                "Ayudar en investigacione y descubrir zonas donde la probabilidad de que suceda un delito sea mayor.",
-                "Mejora de logistica."
-            ]
+            "titulo":"Descubrir",
+            "texts":["Examinacion y Entendimiento de la data con respecto al caso de uso.","Crear un plan para limpiar, estructurar, organizar y mapear la DATA."]
+        },{
+            "titulo":"Transformacio",
+            "texts":["Estructurar la DATA.","Normalizar-Desnormalizar.","Limpiar.","Enriquecer."]
+        },{
+            "titulo":"Validar",
+            "texts":["Revisar la calidad de la DATA al final del proceso."]
+        },{
+            "titulo":"Publicar",
+            "texts":["Publicar los resultados."]
         },
-        {"titulo":"Tecnicas del Data Mining",
-                "texts":["<cb>Descriptiva</cb>","<cb>Diagnostico</cb>","<cb>Preditiva</cb>","<cb>Modelo Predictivo</cb>"]
-            },
-            [
-                {"name":"lupa","text":"<g class='colorBlue'>Agrupacion:</g> es similar a clasifircar pero implica <a target='_blank' href='https://www.tibco.com/es/reference-center/what-is-cluster-analysis'>clusteres</a> para tratarse los grupos."},
-                {"name":"nota","text":"<g class='colorBlue'>Clasificacion:</g> Clasfica los atributos en categorias objetivo<br>Ej: Clasificar los clientes en nivel de ingresos [bajos,medios,altos]"},
-                {"name":"pregunta","text":"<g class='colorBlue'>Anomalias:</g> Encontrar patrones y detectar anomalias."},
-                {"name":"regla","text":"<g class='colorBlue'>Reglas de asociación:</g> se utilizan para descubrir hechos que ocurren en común dentro de un determinado conjunto de datos."},
-                {"name":"python","text":"<g class='colorBlue'>Secuencias de Patrones:</g> Trazar series de eventos que suceden en una secuencia.<br>(Es un tema muy complejo, Buscar mas info en el curso no explica nada)."},
-                {"name":"sql","text":"<g class='colorBlue'>Afinidad de Gupo:</g> Descubrir concurrencias y relaciones."},
-                {"name":"arbol","text":"<g class='colorBlue'>Descision Trees</g> Crear clasificaciones de modelos en formato de estructura de arbol con multiples ramas, donde cada rama representa probables ocurrencias."},
-                {"name":"regresion","text":"<g class='colorBlue'>Regression</g> Identifica la relacion entre dos variables, cuales podria tener relacion."},
-                {"name":"tarea","text":"<g class='colorBlue'>En conclusion: la mineria de datos ayuda a separar el ruido de la informacion real y ayuda a los negocios a enfocarse sus esfuerzo solamente en lo que es relevante.</g>"}
-            ],
-            ["<cr style='font-size:35px;'>Herramientas del Data Mining</cr>"],
-            {
-                "titulo":"",
-                "texts":["Spreadsheests","R-language","Python","IBM SPSS Statistics","IBM Watson Studio","SAS"]},{
-                "titulo":"Spreadsheests",
-                "texts":["son Exel o Google Spreadsheets son muy comunes en el data mining para tareas basicas de este.","Hosting data","Facilidad para exportar a otros tipos de datos","Facil acceso y Facil visibilidad.",
-                "Crear tablas pivot para mostrar casos especificos de data.","Dibujos comparativos entre set de data."]
-            },
-            {
-                "titulo":"R-language",
-                "texts":["Es uno de los lenguajes mas populares para crear modelos estadisticos de datos, computacion estadistica y mineria de datos.","Regression","Classification","Data Clustering (agrupamiento)","Association Rule Mining","Text Mining","Outlier Detection","Social Network Analysis"]
-            },
-            {
-                "titulo":"Python",
-                "texts":["Es un lenguaje de programacion de multiparadigma muy versatil y facil de usar, con muchas librerias.","Pandas: libreria open-soure para trabajar con estructuras de datos.",
-                "Pandas te permite descargar data en cualquier formato, organizarla, ordenarla y manipularla de forma sencilla.",
-                "NumPy: herramienta para matematica compuacional y data prepare.",
-                "Jupyter Notebooks: es una herramienta fundamental para el Data Scient y el Data Analysis.",
-                "Text Mining","Outlier Detection","Social Network Analysis"]
-            }
-
+        ["<cr><g style='font-size:35px;'>Clean DATA</g></cr>",
+        "Pasos importantes: Inspecionar, Limpiar y Verificar el Resultado",
+        "<cb>Missing Data, Data inconsistente y Data incorrecta llevana falsa conclusiones y a ineficientes decisiones</cb>"],
+        [
+            {"name":"lupa","text":"Hay que descubrir anomalias y datos de mala calidad. </br> Visualizar los datos puede ayudar a detectar valores atipico. </br> La tecnica de limpieza que apliquemos al conjunto depende del caso de uso."},
+            {"name":"pregunta","text":"Problemas comunes. </br> Missing Values - SyntaxError - Data duplicada </br> Data Irrelevante - Type of Data - Valores atipicos </br> Estandarizacion"},
+            {"name":"vigilancia","text":"Inspeccionamos si los cambios realizados son efecivos para el Analisis </br> Todas las operaciones de limpieza y manipulacion deben estar documentadas."}
+        ]
+        
     ],
-    "orden":["imgText","listD","listD","imgText","texts","listD","listD","listD","listD"]
+    "orden":["texts","listD","listD","listD","listD","texts","imgText"]
 }

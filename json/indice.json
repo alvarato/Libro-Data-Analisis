@@ -1,7 +1,7 @@
 {
     "titulo":"Indice",
     "bloque":[
-        {"titulo":"DataAnalisis","subtitlos":["Trabajos","Tipos de Analisis","El Proceso DA","Skills del Analista","Ecosistema","Data","Data Mining","Visualización"]},
+        {"titulo":"DataAnalisis","subtitlos":["Trabajos","Tipos de Analisis","El Proceso DA","Pasos del DA","Skills del Analista","Ecosistema","Data","Data Mining","Visualización"]},
         {"titulo":"Bases de Datos","subtitlos":["DDL vs DML","Staments","Operadores","Funciones y Fechas","Subqueries"]},
         {"titulo":"Estadistica","subtitlos":["EDA","Estadistica Descriptiva","Correlacion","Varianza","Estadistica Inferencial"]},
         {"titulo":"Python","subtitlos":["Pandas"]},
