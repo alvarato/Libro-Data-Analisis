@@ -30,11 +30,11 @@ function loadTitulo(data) {
 function printIndice(data) {
   let imprimirIndice = `<h3>${data.titulo}</h3> <ol>`;
   data.bloque.forEach((e) => {
-    imprimirIndice += `<li onclick="loadBloque('${"json/bloque" + countIndex + "/index"}')">${
+    imprimirIndice += `<li class='pointer' onclick="loadBloque('${"json/bloque" + countIndex + "/index"}')">${
       e.titulo
     }</li><ol>`;
     e.subtitlos.forEach((element) => {
-      imprimirIndice += `<a target="_blank"><li onclick="loadBloque('${
+      imprimirIndice += `<a class='pointer' target="_blank"><li onclick="loadBloque('${
         "json/bloque" + countIndex + "/bloque" + countSubIndex
       }')">
                 ${element}</li></a>`;
