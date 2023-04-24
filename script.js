@@ -5,7 +5,8 @@ let countSubIndex = 1;
 let imprimir = "";
 const pathImg ="img/";
 let flag = true;
-const pacoTech =`<section style="width:max-content; margin:auto;">
+const pacoTech =`<section class='logo'><img src='img/logo.png' width:'300px' ></section>
+<section style="width:max-content; margin:auto;">
 <p class='pacotech'>Este libro fue desarrollado por pacoTech.</p>
 </section>`;
 function loadIndice() {

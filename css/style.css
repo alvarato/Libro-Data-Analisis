@@ -73,3 +73,10 @@ li{
 }
 p{font-size: 22px;}
 .pointer{cursor:pointer;}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.logo img{
+    width: 200px;
+}

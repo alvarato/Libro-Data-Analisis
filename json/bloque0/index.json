@@ -13,9 +13,10 @@
         ],
         {
             "titulo":"Data Analisis Ayuda a los Negocios",
-            "lista":["Entender actuaciones pasadas","Tomar desiciones en base a informes",
+            "texts":["Entender actuaciones pasadas","Tomar desiciones en base a informes",
                     "Validar el curso de accion salvando recursos y asegurando sucesos"]
-        }
+        },
+        [""]
     ],
-"orden":["imgText","texts","listD"]
+"orden":["imgText","texts","listD","texts"]
 }
