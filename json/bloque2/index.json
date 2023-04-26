@@ -16,7 +16,15 @@
         "Media recortada<br>El promedio de todos los valores después de eliminar un número fijo de valores 'Media truncada'.",
         "Moda Mo<br>El valor con mayor frecuencia."]},
         ["Los valores Atípicos podrian sesgar los resultados. Un valor atípico es cualquier valor que está muy lejos de los otros valores del conjunto. Los valores atípicos pueden ser errores al ingresar los datos o no, pero afectan a la norma del conjunto.",
-        ""]
+        "<strong>Existen diferentes tipos de variables: cualitativa nominal, cualitativa ordinal, cuantitativa continua, cuantitativa discreta.</strong>",
+        "<strong><cb>Variables cualitativas</cb></strong>",
+        "Son el tipo de variables que como su nombre lo indica expresan distintas cualidades, características o modalidad. Cada modalidad que se presenta se denomina atributo o categoría, y la medición consiste en una clasificación de dichos atributos. Las variables cualitativas pueden ser <strong>dicotómicas</strong> cuando sólo pueden tomar dos valores posibles, como sí y no, hombre y mujer o ser <strong>politómicas</strong> cuando pueden adquirir tres o más valores. Dentro de ellas podemos distinguir:",
+        "<cb>Variable cualitativa ordinal o variable cuasicuantitativa</cb>: La variable puede tomar distintos valores ordenados siguiendo una escala establecida, aunque no es necesario que el intervalo entre mediciones sea uniforme, por ejemplo: leve, moderado, fuerte.", 
+        "<cb>Variable cualitativa nominal</cb>: En esta variable los valores no pueden ser sometidos a un criterio de orden, como por ejemplo los colores o el lugar de registro",
+        "<strong><cb>Variables cuantitativas</cb></strong>",
+        "Son las variables que toman como argumento cantidades numéricas, son variables matemáticas. Las variables cuantitativas además pueden ser:",
+        "<cb>Variable discreta</cb>: Es la variable que presenta separaciones o interrupciones en la escala de valores que puede tomar. Estas separaciones o interrupciones indican la ausencia de valores entre los distintos valores específicos que la variable pueda asumir. Ejemplo: El número de hijos (1, 2, 3, 4, 5).",
+        "<cb>Variable continua</cb>: Es la variable que puede adquirir cualquier valor dentro de un intervalo especificado de valores. Por ejemplo la masa (2,3 kg, 2,4 kg, 2,5 kg,...) o la altura (1,64 m, 1,65 m, 1,66 m,...), o el salario. Solamente se está limitado por la precisión del aparato medidor, en teoría permiten que exista indefinidos valores entre dos variables."]
 
 ],
     "orden":["texts","blueColor","listD","texts"]

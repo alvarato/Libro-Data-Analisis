@@ -1,0 +1,18 @@
+{
+    "titulo":"Estudio de Diseño",
+    "subtitulo":"",
+    "moreInfo":"",
+    "bloque":[
+        ["Según el nivel de conocimiento científico (observación, descripción, explicación) al que espera llegar el investigador, se debe formular el tipo de estudio, es decir de acuerdo al tipo de información que espera obtener, así como el nivel de análisis que deberá realizar. También se tendrán en cuenta los objetivos y las hipótesis planteadas con anterioridad.",
+        "<strong>1) Estudios exploratorios o formulativos</strong>",
+        "El primer nivel de conocimiento científico sobre un problema de investigación se logra a través de estudios de tipo exploratorio; tienen por objetivo, la formulación de un problema para posibilitar una investigación más precisa o el desarrollo de una hipótesis. Permite al investigador formular hipótesis de primero y segundo grados.",
+        ""
+    
+    ],
+        ["Pregunta?","Que caracteristicas tienen mayor impacto en (ej: el precio de un automovil)?"],
+        {"titulo":"","texts":["Estadistica descriptiva","Agrupacion","ANOVA","Correlacion",
+        "Estos temas son mas complejos y competen mas a un Data Scient"]}
+
+],
+    "orden":["texts","listD","texts","listD"]
+}
